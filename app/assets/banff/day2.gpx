@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.0" creator="GPSBabel - http://www.gpsbabel.org" xmlns="http://www.topografix.com/GPX/1/0">
+  <time>2015-11-16T05:16:19.561Z</time>
+  <bounds minlat="50.698890000" minlon="-119.298500000" maxlat="51.503520000" maxlon="-115.551900000"/>
+  <trk>
+    <name>Banff</name>
+    <trkseg>
+      <trkpt lat="50.698890000" lon="-119.298500000">
+        <ele>343.070700</ele>
+        <time>2015-09-06T16:51:25Z</time>
+      </trkpt>
+      <trkpt lat="50.767930000" lon="-119.194800000">
+        <ele>361.319500</ele>
+        <time>2015-09-06T17:11:26Z</time>
+      </trkpt>
+      <trkpt lat="50.888640000" lon="-118.840900000">
+        <ele>368.555800</ele>
+        <time>2015-09-06T17:31:27Z</time>
+      </trkpt>
+      <trkpt lat="50.960470000" lon="-118.499900000">
+        <ele>468.403100</ele>
+        <time>2015-09-06T17:51:27Z</time>
+      </trkpt>
+      <trkpt lat="50.996990000" lon="-118.163100000">
+        <ele>535.557100</ele>
+        <time>2015-09-06T18:11:27Z</time>
+      </trkpt>
+      <trkpt lat="51.105530000" lon="-117.904600000">
+        <ele>648.420300</ele>
+        <time>2015-09-06T18:31:28Z</time>
+      </trkpt>
+      <trkpt lat="51.154030000" lon="-117.821200000">
+        <ele>806.445300</ele>
+        <time>2015-09-06T18:51:28Z</time>
+      </trkpt>
+      <trkpt lat="51.287210000" lon="-117.513600000">
+        <ele>1314.796000</ele>
+        <time>2015-09-06T19:11:29Z</time>
+      </trkpt>
+      <trkpt lat="51.287212000" lon="-117.513618000">
+        <ele>1314.796000</ele>
+        <time>2015-09-06T19:29:06Z</time>
+      </trkpt>
+    </trkseg>
+    <trkseg>
+      <trkpt lat="51.287210000" lon="-117.513600000">
+        <ele>1314.796000</ele>
+        <time>2015-09-06T19:29:07Z</time>
+      </trkpt>
+      <trkpt lat="51.503520000" lon="-117.456900000">
+        <ele>1067.741000</ele>
+        <time>2015-09-06T19:31:29Z</time>
+      </trkpt>
+      <trkpt lat="51.445540000" lon="-117.092500000">
+        <ele>798.005100</ele>
+        <time>2015-09-06T19:51:29Z</time>
+      </trkpt>
+      <trkpt lat="51.314790000" lon="-116.972400000">
+        <ele>807.121000</ele>
+        <time>2015-09-06T20:11:30Z</time>
+      </trkpt>
+      <trkpt lat="51.304200000" lon="-116.870700000">
+        <ele>965.201700</ele>
+        <time>2015-09-06T20:31:31Z</time>
+      </trkpt>
+      <trkpt lat="51.309330000" lon="-116.579200000">
+        <ele>1146.271000</ele>
+        <time>2015-09-06T20:51:31Z</time>
+      </trkpt>
+      <trkpt lat="51.434570000" lon="-116.192900000">
+        <ele>1544.877000</ele>
+        <time>2015-09-06T21:11:31Z</time>
+      </trkpt>
+      <trkpt lat="51.264130000" lon="-115.932100000">
+        <ele>1520.118000</ele>
+        <time>2015-09-06T21:31:42Z</time>
+      </trkpt>
+      <trkpt lat="51.187760000" lon="-115.551900000">
+        <ele>1367.707000</ele>
+        <time>2015-09-06T21:51:45Z</time>
+      </trkpt>
+      <trkpt lat="51.183410000" lon="-115.563100000">
+        <ele>1365.148000</ele>
+        <time>2015-09-06T22:12:21Z</time>
+      </trkpt>
+      <trkpt lat="51.183410000" lon="-115.563100000">
+        <ele>1365.148000</ele>
+        <time>2015-09-06T22:32:31Z</time>
+      </trkpt>
+      <trkpt lat="51.179860000" lon="-115.569800000">
+        <ele>1409.932000</ele>
+        <time>2015-09-06T22:52:35Z</time>
+      </trkpt>
+      <trkpt lat="51.178250000" lon="-115.571600000">
+        <ele>1306.130000</ele>
+        <time>2015-09-06T23:17:49Z</time>
+      </trkpt>
+      <trkpt lat="51.175010000" lon="-115.570600000">
+        <ele>1464.532000</ele>
+        <time>2015-09-06T23:37:53Z</time>
+      </trkpt>
+      <trkpt lat="51.173260000" lon="-115.571000000">
+        <ele>1390.606000</ele>
+        <time>2015-09-06T23:57:56Z</time>
+      </trkpt>
+      <trkpt lat="51.176500000" lon="-115.570700000">
+        <ele>1372.844000</ele>
+        <time>2015-09-07T00:17:56Z</time>
+      </trkpt>
+      <trkpt lat="51.176500000" lon="-115.570700000">
+        <ele>1372.844000</ele>
+        <time>2015-09-07T02:18:05Z</time>
+      </trkpt>
+      <trkpt lat="51.182950000" lon="-115.563100000">
+        <ele>1400.299000</ele>
+        <time>2015-09-07T02:38:05Z</time>
+      </trkpt>
+      <trkpt lat="51.182949000" lon="-115.563057000">
+        <ele>1400.299000</ele>
+        <time>2015-09-07T03:46:06Z</time>
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>
