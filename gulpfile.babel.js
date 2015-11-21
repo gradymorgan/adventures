@@ -80,9 +80,9 @@ var aspectFilter = function(min, max) {
 };
 
 // make a bunch of thumbnails
-gulp.task('images', () => {
+gulp.task('gallery', () => {
     streamqueue({ objectMode: true },
-        gulp.src('app/**/pictures/*.jpg')
+        gulp.src('app/raw/**/*.jpg')
           .pipe(aspectFilter(2))
           .pipe($.imageResize({ 
               width : 2400,
@@ -94,7 +94,7 @@ gulp.task('images', () => {
           //   suffix: "-pano",
           // }))
 
-        gulp.src('app/**/pictures/*.jpg')
+        gulp.src('app/raw/**/*.jpg')
           .pipe(aspectFilter(1,2))
           .pipe($.imageResize({ 
               width : 1200,
@@ -103,7 +103,7 @@ gulp.task('images', () => {
               upscale : false
             })),
 
-        gulp.src('app/**/pictures/*.jpg')
+        gulp.src('app/raw/**/*.jpg')
           .pipe(aspectFilter(0,1))
           .pipe($.imageResize({ 
               width : 533,
@@ -114,17 +114,22 @@ gulp.task('images', () => {
     .pipe($.rename({
       suffix: "@2x",
     }))
-    .pipe(gulp.dest('dist/images'))
+    .pipe(gulp.dest('app/pictures/thumbs'))
     .pipe($.imageResize({ 
         width : '50%'
       }))
     .pipe($.rename(function (path) {
       path.basename = path.basename.slice(0,-3); //slice off '@2x'
     }))
-    .pipe(gulp.dest('dist/images'));
+    .pipe(gulp.dest('app/pictures/thumbs'));
 
-    gulp.src('app/**/pictures/*.jpg')
-        .pipe(gulp.dest('dist/images'))
+    gulp.src('app/raw/**/*.jpg')
+        .pipe($.imageResize({ 
+              width : 2880,
+              height : 1800,
+              upscale : false
+            }))
+        .pipe(gulp.dest('app/pictures/full'))
 });
 
 gulp.task('fonts', () => {

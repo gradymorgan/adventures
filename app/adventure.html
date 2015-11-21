@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>yo webapp2</title>
+    <title>Banff Adventure</title>
 
     <link rel="apple-touch-icon" href="apple-touch-icon.png">
     <!-- Place favicon.ico in the root directory -->
@@ -19,7 +19,7 @@
     <!-- endbuild -->
 
     <!-- build:css styles/main.css -->
-    <link rel="stylesheet" href="styles/main.css">
+    <!-- <link rel="stylesheet" href="styles/main.css"> -->
     <!-- endbuild -->
     
     <!-- build:js scripts/vendor/modernizr.js -->
@@ -30,6 +30,26 @@
     <!--[if lt IE 10]>
       <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
+
+    <!-- build:js scripts/vendor.js -->
+    <!-- bower:js -->
+    <script src="/bower_components/jquery/dist/jquery.js"></script>
+    <script src="/bower_components/lodash/lodash.js"></script>
+    <script src="/bower_components/moment/moment.js"></script>
+    <script src="/bower_components/d3/d3.js"></script>
+    <script src="/bower_components/turf/turf.min.js"></script>
+    <script src="/bower_components/photoswipe/dist/photoswipe.js"></script>
+    <script src="/bower_components/photoswipe/dist/photoswipe-ui-default.js"></script>
+    <script src="/bower_components/handlebars/handlebars.js"></script>
+    <!-- endbower -->
+    <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.11.3/mapbox-gl.js'></script>
+    <!-- endbuild -->
+    
+    
+    <!-- build:js scripts/main.js -->
+    <!-- <script src="scripts/main.js"></script> -->
+    <!-- endbuild -->
+
 
     <div class="hero-unit">
       <h1>'Allo, 'Allo!</h1>
@@ -42,16 +62,68 @@
       </ul>
     </div>
 
+    <script>
+        var picturesPromise = $.getJSON('assets/banff/pictures.json').promise()
 
-    {{#each}}
-        <div class="pure-g">
-            <div class="pure-u-1-1"><a href="images/banff/DSC04053.jpg">
-              <img src="images/banff/DSC04053-pano.jpg" alt=""
-              srcset="images/banff/DSC04053-pano.jpg 1x, images/banff/DSC04053-pano@2x.jpg 2x"></a>
-            </div>
-        </div>
-    {{/each}}
-    
+        $(function() {
+            picturesPromise.then(function(pictures) {
+                var template = Handlebars.compile($("#thumbnail-template").html());
+
+
+                pictures = _.map(pictures, function(p, i) {
+                    
+                    var basename = p.SourceFile.split('.')[0];
+
+                    return {
+                        index: i,
+                        basename: basename,
+                        "w": p.ImageWidth,
+                        "h": p.ImageHeight,
+                        src: "pictures/full/banff/"+basename+".jpg",
+                        msrc: "pictures/thumbs/banff/"+basename+".jpg",
+                        msrc2x: "pictures/thumbs/banff/"+basename+"@2x.jpg"
+                    };
+                });
+
+                var html = _.map(pictures, template).join('');
+                $('#images').html(html);
+
+                // _.each(pictures, function(p) {
+                //     p.el = $('#'+p.basename+' >img')[0];
+                // });
+
+                
+
+                $('a.thumbnail').on('click', function(e) {
+                    e.preventDefault();
+
+                    var index = $(this).data('index');
+
+                    var options = {
+                        // optionName: 'option value'
+                        // for example:
+                        index: index // start at first slide
+                    };
+
+                    var gallery = new PhotoSwipe( $('.pswp')[0], PhotoSwipeUI_Default, pictures, options);
+                    gallery.init();
+                });
+            });    
+        })
+        
+    </script>
+
+    <script id="thumbnail-template" type="text/x-handlebars-templat">
+        <a class="thumbnail" href="{{src}}" data-size="{{w}}x{{h}}" id="{{basename}}" data-index="{{index}}">
+              <img src="{{msrc}}" alt=""
+              srcset="{{msrc}} 1x, {{msrc2x}} 2x">
+        </a>
+    </script>
+
+    <div id="images">
+    </div>
+
+    <!-- 
     <div class="pure-g">
         <div class="pure-u-1-2"><a href="images/banff/DSC03953.jpg">
           <img src="images/banff/DSC03953-landscape.jpg" alt=""
@@ -68,7 +140,7 @@
           <img src="images/banff/DSC04053-pano.jpg" alt=""
           srcset="images/banff/DSC04053-pano.jpg 1x, images/banff/DSC04053-pano@2x.jpg 2x"></a>
         </div>
-    </div>
+    </div> -->
 
 
     
@@ -82,23 +154,6 @@
       ga('create','UA-XXXXX-X');ga('send','pageview');
     </script>
 
-    <!-- build:js scripts/vendor.js -->
-    <!-- bower:js -->
-    <script src="/bower_components/jquery/dist/jquery.js"></script>
-    <script src="/bower_components/lodash/lodash.js"></script>
-    <script src="/bower_components/moment/moment.js"></script>
-    <script src="/bower_components/d3/d3.js"></script>
-    <script src="/bower_components/turf/turf.min.js"></script>
-    <script src="/bower_components/photoswipe/dist/photoswipe.js"></script>
-    <script src="/bower_components/photoswipe/dist/photoswipe-ui-default.js"></script>
-    <!-- endbower -->
-    <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.11.3/mapbox-gl.js'></script>
-    <!-- endbuild -->
-    
-    
-    <!-- build:js scripts/main.js -->
-    <script src="scripts/main.js"></script>
-    <!-- endbuild -->
 
     
 
