@@ -1,5 +1,5 @@
 
-// /Applications/GPSBabelFE.app/Contents/MacOS/gpsbabel 
+// /Applications/GPSBabelFE.app/Contents/MacOS/gpsbabel
 
 var fs = require('fs');
 var child_process = require('child_process');
@@ -9,12 +9,14 @@ var path = require("path");
 var _ = require('lodash');
 var moment = require('moment');
 
+var TRIP = 'deception_pass';
+
 //todo: file list
-glob('raw/banff/*.jpg', function(err, files) {
-    var imageJson = child_process.execSync("exiftool -ImageWidth -ImageHeight -GPSPosition -GPSAltitude -GPSDateTime -CreateDate -j -c '%+.8f' " + files.join(' '));    
+glob('raw/'+TRIP+'/*.jpg', function(err, files) {
+    var imageJson = child_process.execSync("exiftool -ImageWidth -ImageHeight -GPSPosition -GPSAltitude -GPSDateTime -CreateDate -j -c '%+.8f' " + files.join(' '));
     var images = JSON.parse( imageJson );
 
-// { SourceFile: 'raw/banff/IMG_0890.jpg',
+// { SourceFile: 'raw/'+TRIP+'/IMG_0890.jpg',
 //     ImageWidth: 3264,
 //     ImageHeight: 2448,
 //     GPSPosition: '+50.70946389, -119.28391389',
@@ -22,7 +24,7 @@ glob('raw/banff/*.jpg', function(err, files) {
 //     GPSDateTime: '2015:09:06 02:20:44Z',
 //     CreateDate: '2015:09:05 19:20:44' }
     images = _.map(images, function(image) {
-        
+
         var imagePath = path.parse(image.SourceFile);
 
         var aspectRatio = image.ImageWidth / image.ImageHeight;
@@ -36,14 +38,14 @@ glob('raw/banff/*.jpg', function(err, files) {
             perspective: perspective,
             "w": image.ImageWidth,
             "h": image.ImageHeight,
-            src: "pictures/full/banff/"+imagePath.name+".jpg",
-            msrc: "pictures/thumbs/banff/"+imagePath.name+".jpg",
-            msrc2x: "pictures/thumbs/banff/"+imagePath.name+"@2x.jpg",
+            src: "pictures/full/"+TRIP+"/"+imagePath.name+".jpg",
+            msrc: "pictures/thumbs/"+TRIP+"/"+imagePath.name+".jpg",
+            msrc2x: "pictures/thumbs/"+TRIP+"/"+imagePath.name+"@2x.jpg",
             date: image.CreateDate
         };
     });
 
-    fs.writeFileSync('images.json', JSON.stringify(images));
+    fs.writeFileSync(TRIP+'_images.json', JSON.stringify(images));
 
     //get days from track
     var dayGrouped = _.groupBy(images, function(image) {
@@ -64,20 +66,20 @@ glob('raw/banff/*.jpg', function(err, files) {
 
     var tracks = {};
     _.each(args, function(arg) {
-        child_process.execSync("gpsbabel -t -i gpx -f assets/banff/banff.gpx -x track,pack,start="+arg[1]+",stop="+arg[2]+" -o gpx -F .tmp/day"+arg[0]+".gpx");
+        child_process.execSync("gpsbabel -t -i gpx -f assets/"+TRIP+"/"+TRIP+".gpx -x track,pack,start="+arg[1]+",stop="+arg[2]+" -o gpx -F .tmp/day"+arg[0]+".gpx");
         child_process.execSync("ogr2ogr -f GeoJSON .tmp/day"+arg[0]+".json .tmp/day"+arg[0]+".gpx tracks");
-        
-        var fileContents = fs.readFileSync(".tmp/day"+arg[0]+".json",'utf8'); 
+
+        var fileContents = fs.readFileSync(".tmp/day"+arg[0]+".json",'utf8');
         tracks["day"+arg[0]] = JSON.parse(fileContents);
     });
 
     if ( args.length > 1 ) {
-        child_process.execSync("ogr2ogr -f GeoJSON .tmp/all.json assets/banff/banff.gpx tracks");
-        var fileContents = fs.readFileSync(".tmp/all.json",'utf8'); 
+        child_process.execSync("ogr2ogr -f GeoJSON .tmp/all.json assets/"+TRIP+"/"+TRIP+".gpx tracks");
+        var fileContents = fs.readFileSync(".tmp/all.json",'utf8');
         tracks["all"] = JSON.parse(fileContents);
     }
 
-    fs.writeFileSync('tracks.json', JSON.stringify(tracks));
+    fs.writeFileSync(TRIP+'_tracks.json', JSON.stringify(tracks));
 });
 
 
@@ -100,7 +102,7 @@ glob('raw/banff/*.jpg', function(err, files) {
 //list of days
 //for each day, make start/stop
 
-// 
+//
 // gpsbabel - t - i gpx - f Banff.gpx - x track, pack, start = 2015090616, stop = 2015090704 - o gpx - F day2.gpx
 // gpsbabel - t - i gpx - f Banff.gpx - x track, pack, start = 2015090716, stop = 2015090805 - o gpx - F day3.gpx
 // gpsbabel - t - i gpx - f Banff.gpx - x track, pack, start = 2015090815, stop = 2015090907 - o gpx - F day4.gpx
