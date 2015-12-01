@@ -65,7 +65,7 @@ var aspectFilter = function(min, max) {
   max = max || 50;
   return through.obj(function (file, enc, callback) {
     var gmfile = gm(file.path);
-    
+
     var ss = this;
 
     gmfile.size(function(err, size){
@@ -79,12 +79,35 @@ var aspectFilter = function(min, max) {
   });
 };
 
+gulp.task('process_assets', () => {
+
+});
+
+gulp.task('banner', () => {
+    gulp.src('raw/**/banner.jpg')
+          .pipe($.print())
+          .pipe($.imageResize({
+              width : 2400
+            }))
+          .pipe($.rename({
+            suffix: "@2x",
+          }))
+          .pipe(gulp.dest('app/pictures'))
+          .pipe($.imageResize({
+              width : '50%'
+            }))
+          .pipe($.rename(function (path) {
+            path.basename = path.basename.slice(0,-3); //slice off '@2x'
+          }))
+          .pipe(gulp.dest('app/pictures'));
+});
+
 // make a bunch of thumbnails
 gulp.task('gallery', () => {
     streamqueue({ objectMode: true },
-        gulp.src('app/raw/**/*.jpg')
+        gulp.src('raw/**/*.jpg')
           .pipe(aspectFilter(2))
-          .pipe($.imageResize({ 
+          .pipe($.imageResize({
               width : 2400,
               height : 800,
               crop : true,
@@ -94,18 +117,18 @@ gulp.task('gallery', () => {
           //   suffix: "-pano",
           // }))
 
-        gulp.src('app/raw/**/*.jpg')
+        gulp.src('raw/**/*.jpg')
           .pipe(aspectFilter(1,2))
-          .pipe($.imageResize({ 
+          .pipe($.imageResize({
               width : 1200,
               height : 800,
               crop : true,
               upscale : false
             })),
 
-        gulp.src('app/raw/**/*.jpg')
+        gulp.src('raw/**/*.jpg')
           .pipe(aspectFilter(0,1))
-          .pipe($.imageResize({ 
+          .pipe($.imageResize({
               width : 533,
               height : 800,
               crop : true,
@@ -115,7 +138,7 @@ gulp.task('gallery', () => {
       suffix: "@2x",
     }))
     .pipe(gulp.dest('app/pictures/thumbs'))
-    .pipe($.imageResize({ 
+    .pipe($.imageResize({
         width : '50%'
       }))
     .pipe($.rename(function (path) {
@@ -123,8 +146,8 @@ gulp.task('gallery', () => {
     }))
     .pipe(gulp.dest('app/pictures/thumbs'));
 
-    gulp.src('app/raw/**/*.jpg')
-        .pipe($.imageResize({ 
+    gulp.src('raw/**/*.jpg')
+        .pipe($.imageResize({
               width : 2880,
               height : 1800,
               upscale : false

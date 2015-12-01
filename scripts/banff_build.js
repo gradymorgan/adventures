@@ -9,11 +9,16 @@ var path = require("path");
 var _ = require('lodash');
 var moment = require('moment');
 
-var TRIP = 'deception_pass';
+var EXIF_DATE_FORMAT = 'YYYY:MM:DD HH:mm:ss';
+var PROPER_DATE_FORMAT = 'YYYY/MM/DD HH:mm:ss';
+
+var GPSBABEL_DATE_FORMAT = 'YYYYMMDDHH';
+
+var TRIP = 'banff';
 
 //todo: file list
 glob('raw/'+TRIP+'/*.jpg', function(err, files) {
-    var imageJson = child_process.execSync("exiftool -ImageWidth -ImageHeight -GPSPosition -GPSAltitude -GPSDateTime -CreateDate -j -c '%+.8f' " + files.join(' '));
+    var imageJson = child_process.execSync("exiftool -ImageWidth -ImageHeight -GPSPosition -GPSAltitude# -GPSDateTime -CreateDate -j -c '%+.8f' " + files.join(' '));
     var images = JSON.parse( imageJson );
 
 // { SourceFile: 'raw/'+TRIP+'/IMG_0890.jpg',
@@ -32,7 +37,9 @@ glob('raw/'+TRIP+'/*.jpg', function(err, files) {
         if (aspectRatio < 1) perspective = 'portrait';
         if (aspectRatio > 2) perspective = 'panorama';
 
-        return {
+
+
+        var imageResp = {
             type: 'image',
             name: imagePath.name,
             perspective: perspective,
@@ -41,9 +48,22 @@ glob('raw/'+TRIP+'/*.jpg', function(err, files) {
             src: "pictures/full/"+TRIP+"/"+imagePath.name+".jpg",
             msrc: "pictures/thumbs/"+TRIP+"/"+imagePath.name+".jpg",
             msrc2x: "pictures/thumbs/"+TRIP+"/"+imagePath.name+"@2x.jpg",
-            date: image.CreateDate
+            date: moment(image.CreateDate, EXIF_DATE_FORMAT).format(PROPER_DATE_FORMAT)
         };
+
+        if ('GPSPosition' in image) {
+            var split = image.GPSPosition.split(',');
+            imageResp.position = { lat: parseFloat(split[0]), lon: parseFloat(split[1]) };
+        }
+
+        if ('GPSAltitude' in image) {
+            imageResp.altitude = parseFloat(image.GPSAltitude);
+        }
+
+        return imageResp;
     });
+
+    images = _.sortBy(images, 'date');
 
     fs.writeFileSync(TRIP+'_images.json', JSON.stringify(images));
 
@@ -52,11 +72,11 @@ glob('raw/'+TRIP+'/*.jpg', function(err, files) {
         return image.date.slice(0,10);
     });
 
-    var startDay = moment(_.keys(dayGrouped).sort()[0], 'YYYY:MM:DD');
+    var startDay = moment(_.keys(dayGrouped).sort()[0], 'YYYY/MM/DD');
     var args = _.map(dayGrouped, function(group, day) {
-        var start = moment(day, 'YYYY:MM:DD').startOf('day').utc().format('YYYYMMDDHH');
-        var stop = moment(day, 'YYYY:MM:DD').endOf('day').utc().format('YYYYMMDDHH');
-        var dayNo =  moment(day, 'YYYY:MM:DD').diff(startDay, 'days')+1;
+        var start = moment(day, 'YYYY/MM/DD').startOf('day').utc().format(GPSBABEL_DATE_FORMAT);
+        var stop = moment(day, 'YYYY/MM/DD').endOf('day').utc().format(GPSBABEL_DATE_FORMAT);
+        var dayNo =  moment(day, 'YYYY/MM/DD').diff(startDay, 'days')+1;
 
         return [dayNo, start, stop];
     });

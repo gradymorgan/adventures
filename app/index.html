@@ -15,20 +15,18 @@
     <link rel="stylesheet" href="/bower_components/photoswipe/dist/default-skin/default-skin.css" />
     <link rel="stylesheet" href="/bower_components/pure/pure.css" />
     <!-- endbower -->
-    <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.11.3/mapbox-gl.css' rel='stylesheet' />
+    <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.11.3/mapbox-gl.css' rel='stylesheet'>
     <!-- endbuild -->
 
-    <!-- build:css styles/main.css -->
-    <!-- <link rel="stylesheet" href="styles/main.css"> -->
+
+    <!-- build:css styles/index.css -->
+    <link rel="stylesheet" href="styles/index.css">
     <!-- endbuild -->
 
     <!-- build:js scripts/vendor/modernizr.js -->
     <script src="/bower_components/modernizr/modernizr.js"></script>
     <!-- endbuild -->
 
-    <style>
-        #tracks div { width: 400px; height: 400px; }
-    </style>
   </head>
   <body>
     <!--[if lt IE 10]>
@@ -54,76 +52,36 @@
     <!-- <script src="scripts/main.js"></script> -->
     <!-- endbuild -->
 
-
-    <div class="hero-unit">
-      <h1>'Allo, 'Allo!</h1>
-      <p>You now have</p>
-      <ul>
-        <li>HTML5 Boilerplate</li>
-        <li>Sass</li>
-        <li>Modernizr</li>
-        <li>jQuery</li>
-      </ul>
-    </div>
-
     <script>
-        var trip = 'deception_pass';
+        var trip = 'banff';
         var picturesPromise = $.getJSON(trip+'_images.json').promise();
         var trackPromise = $.getJSON(trip+'_tracks.json').promise();
 
+        var tripPromise = $.getJSON(trip+'.json').promise();
+
+        var thumbnailTemplate, sectionTemplate, mapTemplate;
+
         $(function() {
-            picturesPromise.then(function(pictures) {
-                var template = Handlebars.compile($("#thumbnail-template").html());
+            mapboxgl.accessToken = 'pk.eyJ1IjoiZ3JhZHltb3JnYW4iLCJhIjoiY2loMWZvd2hmMHg0eXZrbTVvdDJyZHhtbCJ9.4YJ10kGO3HbcRqbpBsdihg';
 
-                //add indexes, for photoswipe
-                pictures = _.map(pictures, function(p, i) { p.index = i; return p; });
+            sectionTemplate = Handlebars.compile($("#section-template").html());
+            thumbnailTemplate = Handlebars.compile($("#thumbnail-template").html());
+            mapTemplate = Handlebars.compile($("#map-template").html());
 
-                var html = [];
-
-                for (var i=0; i < pictures.length;) {
-                    html.push("<div>");
-
-                    var sizes = [];
-                    if ( i == pictures.length-1 || pictures[i+1].perspective == 'panorama' ) {
-                        sizes = [1000, 666];
-                    }
-                    else if ( pictures[i].perspective == 'landscape' && pictures[i+1].perspective == 'landscape' )
-                        sizes = [500, 333, 500, 333];
-                    else if (pictures[i].perspective == 'panorama')
-                        sizes = [1000, 333];
-                    else if (pictures[i].perspective == 'landscape' && pictures[i+1].perspective == 'portrait')
-                        sizes = [690, 460, 308, 460];
-                    else if (pictures[i].perspective == 'portrait' && pictures[i+1].perspective == 'landscape')
-                        sizes = [308, 460, 690, 460];
-
-                    if ( sizes.length == 0 ) {
-                        console.info(pictures[i], pictures[i+1])
-                        break;
-                    }
-
-                    while (sizes.length>0) {
-                        pictures[i].dw = sizes.shift();
-                        pictures[i].dh = sizes.shift();
-
-                        html.push(template(pictures[i]));
-
-                        i++;
-                    }
+            tripPromise.then(function(trip) {
 
 
+                _.each(trip.sections, function(section) {
+                    var sectionEl = $(sectionTemplate(section)).appendTo('body');
 
-                    html.push("</div>");
-                }
-
-
-                $('#images').html(html.join(''));
-
-                _.each(pictures, function(p) {
-                    p.el = $('#'+p.basename+' >img')[0];
+                    addContent(sectionEl, section.content);
                 });
 
-
-
+                pictures = _.map(pictures, function(p, i) { p.index = i; return p; });
+                _.each(pictures, function(p) {
+                    $('#'+p.name).attr('data-index', p.index);
+                    p.el = $('#'+p.name+' >img')[0];
+                });
 
                 $('a.thumbnail').on('click', function(e) {
                     e.preventDefault();
@@ -140,76 +98,144 @@
                     gallery.init();
                 });
             });
+
+
         });
 
+        var pictures = [];
+        function addContent(el, content) {
+            var html = [];
+            for (var i=0; i < content.length;) {
+                    html.push("<div>");
 
-        $(function() {
-            mapboxgl.accessToken = 'pk.eyJ1IjoiZ3JhZHltb3JnYW4iLCJhIjoiY2loMWZvd2hmMHg0eXZrbTVvdDJyZHhtbCJ9.4YJ10kGO3HbcRqbpBsdihg';
+                    var sizes = [];
+                    if ( i == content.length-1 || content[i+1].perspective == 'panorama' ) {
+                        sizes = [1000, 666];
+                    }
+                    else if ( content[i].perspective == 'landscape' && content[i+1].perspective == 'landscape' )
+                        sizes = [500, 333, 500, 333];
+                    else if (content[i].perspective == 'panorama')
+                        sizes = [1000, 333];
+                    else if (content[i].perspective == 'landscape' && content[i+1].perspective == 'portrait')
+                        sizes = [690, 460, 308, 460];
+                    else if (content[i].perspective == 'portrait' && content[i+1].perspective == 'landscape')
+                        sizes = [308, 460, 690, 460];
 
-            trackPromise.then(function(tracks) {
-                _.each(tracks, function(track, name) {
-                    $('<div id="map'+name+'"></div>').appendTo($('#tracks'));
+                    if ( sizes.length == 0 ) {
+                        console.info(content[i], content[i+1])
+                        break;
+                    }
 
-                    var map = new mapboxgl.Map({
-                        container: 'map'+name,
-                        style: 'mapbox://styles/mapbox/streets-v8',
-                        center: [
-                            -122.333144, 47.626353
-                        ],
-                        zoom: 3,
-                        interactive: false,
-                        attributionControl: false
-                    });
+                    while (sizes.length>0) {
+                        content[i].dw = sizes.shift();
+                        content[i].dh = sizes.shift();
 
-                    map.on('style.load', function () {
-                        var source = new mapboxgl.GeoJSONSource({
-                            data: track
-                        });
+                        if ( content[i].type == "image" ) {
+                            html.push(thumbnailTemplate(content[i]));
+                            pictures.push(content[i]);
+                        }
+                        else if ( content[i].type == "html" ) {
+                            html.push('<div class="html">'+content[i].html+'</div>');
+                        }
+                        else if ( content[i].type == "map" ) {
+                            content[i].dw = 400;
+                            content[i].dh = 400;
 
-                        map.addSource('route', source);
-                        map.addLayer({
-                            "id": "route",
-                            "type": "line",
-                            "source": "route",
-                            "layout": {
-                                "line-join": "round",
-                                "line-cap": "round"
-                            },
-                            "paint": {
-                                "line-color": "blue",
-                                "line-width": 3
-                            }
-                        });
+                            html.push(mapTemplate(content[i]));
+                            var obj = content[i];
 
-                        //TODO: padd
-                        var e = turf.extent(track);
-                        var w = e[2] - e[0];
-                        var h = e[3] - e[1];
-                        e[0] -= 0.05 * w;
-                        e[1] -= 0.05 * h;
-                        e[2] += 0.05 * w;
-                        e[3] += 0.05 * h;
-                        map.fitBounds( mapboxgl.LngLatBounds.convert([[e[0],e[1]],[e[2],e[3]]]) );
-                    });
+                            window.setTimeout( function() {
+                                var map = new mapboxgl.Map({
+                                    container: 'map'+obj.name,
+                                    style: 'mapbox://styles/mapbox/streets-v8',
+                                    center: [
+                                        -122.333144, 47.626353
+                                    ],
+                                    zoom: 3,
+                                    interactive: false,
+                                    attributionControl: false
+                                });
 
-                });
-            });
-        });
+                                map.on('style.load', function () {
+                                    var source = new mapboxgl.GeoJSONSource({
+                                        data: obj.track
+                                    });
 
+                                    map.addSource('route', source);
+                                    map.addLayer({
+                                        "id": "route",
+                                        "type": "line",
+                                        "source": "route",
+                                        "layout": {
+                                            "line-join": "round",
+                                            "line-cap": "round"
+                                        },
+                                        "paint": {
+                                            "line-color": "blue",
+                                            "line-width": 3
+                                        }
+                                    });
+
+                                    //TODO: padd
+                                    var e = turf.extent(obj.track);
+                                    var w = e[2] - e[0];
+                                    var h = e[3] - e[1];
+                                    e[0] -= 0.05 * w;
+                                    e[1] -= 0.05 * h;
+                                    e[2] += 0.05 * w;
+                                    e[3] += 0.05 * h;
+                                    map.fitBounds( mapboxgl.LngLatBounds.convert([[e[0],e[1]],[e[2],e[3]]]) );
+                                });
+
+                            },10);
+                        }
+
+                        i++;
+                    }
+
+                    html.push("</div>");
+                }
+
+                el.find('.content').html(html.join(''));
+        }
     </script>
 
-    <script id="thumbnail-template" type="text/x-handlebars-templat">
-        <a class="thumbnail" href="{{src}}" data-size="{{w}}x{{h}}" id="{{basename}}" data-index="{{index}}">
-              <img src="{{msrc}}" alt="" srcset="{{msrc}} 1x, {{msrc2x}} 2x" style="width: {{dw}}px; height: {{dh}}px;">
-        </a>
+    <script id="banner-template" type="text/x-handlebars-template">
+        <div id="banner">
+            <img src="">
+            <div class="title">{{title}}</div>
+        </div>
     </script>
 
-    <div id="images">
-    </div>
+    <script id="thumbnail-template" type="text/x-handlebars-template">
+        <a class="thumbnail" href="{{src}}" data-size="{{w}}x{{h}}" id="{{name}}"><img src="{{msrc}}" alt="" srcset="{{msrc}} 1x, {{msrc2x}} 2x" style="width: {{dw}}px; height: {{dh}}px;"></a>
+        {{#if caption}}
+            <span class="caption">{{caption}}</span>
+        {{/if}}
+    </script>
 
-    <div id="tracks">
-    </div>
+    <script id="map-template" type="text/x-handlebars-template">
+        <div id="map{{name}}" class="map" style="width: {{dw}}px; height: {{dh}}px;">
+        </div>
+    </script>
 
+    <script id="section-template" type="text/x-handlebars-template">
+
+        <section>
+            {{#if title}}
+                <h2>{{title}}</h2>
+            {{/if}}
+
+            <div class="content">
+            </div>
+        </section>
+    </script>
+
+    <header>
+        <div class="text-vertical-center">
+            <h1>Banff, CA</h1>
+        </div>
+    </header>
 
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
     <script>
