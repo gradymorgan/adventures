@@ -14,11 +14,11 @@ var PROPER_DATE_FORMAT = 'YYYY/MM/DD HH:mm:ss';
 
 var GPSBABEL_DATE_FORMAT = 'YYYYMMDDHH';
 
-var TRIP = 'banff';
+var TRIP = 'bvis';
 
 //todo: file list
 glob('raw/'+TRIP+'/*.jpg', function(err, files) {
-    var imageJson = child_process.execSync("exiftool -ImageWidth -ImageHeight -GPSPosition -GPSAltitude# -GPSDateTime -CreateDate -j -c '%+.8f' " + files.join(' '));
+    var imageJson = child_process.execSync("exiftool -ImageWidth -ImageHeight -GPSPosition -GPSAltitude -GPSDateTime -CreateDate -j -c '%+.8f' " + files.join(' '));
     var images = JSON.parse( imageJson );
 
 // { SourceFile: 'raw/'+TRIP+'/IMG_0890.jpg',
@@ -82,9 +82,18 @@ glob('raw/'+TRIP+'/*.jpg', function(err, files) {
     });
 
     //remove temp files, as ogr2ogr won't overwrite
-    child_process.execSync("rm .tmp/*.gpx .tmp/*.json");
+    try {
+        child_process.execSync("rm .tmp/*.gpx .tmp/*.json");
+    } catch (e) {
+
+    }
 
     var tracks = {};
+    if ( args.length > 1 ) {
+        child_process.execSync("ogr2ogr -f GeoJSON .tmp/all.json assets/"+TRIP+"/"+TRIP+".gpx tracks");
+        var fileContents = fs.readFileSync(".tmp/all.json",'utf8');
+        tracks["all"] = JSON.parse(fileContents);
+    }
     _.each(args, function(arg) {
         child_process.execSync("gpsbabel -t -i gpx -f assets/"+TRIP+"/"+TRIP+".gpx -x track,pack,start="+arg[1]+",stop="+arg[2]+" -o gpx -F .tmp/day"+arg[0]+".gpx");
         child_process.execSync("ogr2ogr -f GeoJSON .tmp/day"+arg[0]+".json .tmp/day"+arg[0]+".gpx tracks");
@@ -93,11 +102,7 @@ glob('raw/'+TRIP+'/*.jpg', function(err, files) {
         tracks["day"+arg[0]] = JSON.parse(fileContents);
     });
 
-    if ( args.length > 1 ) {
-        child_process.execSync("ogr2ogr -f GeoJSON .tmp/all.json assets/"+TRIP+"/"+TRIP+".gpx tracks");
-        var fileContents = fs.readFileSync(".tmp/all.json",'utf8');
-        tracks["all"] = JSON.parse(fileContents);
-    }
+
 
     fs.writeFileSync(TRIP+'_tracks.json', JSON.stringify(tracks));
 });

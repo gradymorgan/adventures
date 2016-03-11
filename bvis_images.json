@@ -1,0 +1,1906 @@
+[
+  {
+    "type": "image",
+    "name": "IMG_0320",
+    "perspective": "landscape",
+    "w": 4032,
+    "h": 3024,
+    "src": "pictures/full/bvis/IMG_0320.jpg",
+    "msrc": "pictures/thumbs/bvis/IMG_0320.jpg",
+    "msrc2x": "pictures/thumbs/bvis/IMG_0320@2x.jpg",
+    "date": "2015/12/15 15:18:40",
+    "position": {
+      "lat": 18.33873056,
+      "lon": -64.93862222
+    },
+    "altitude": 47
+  },
+  {
+    "type": "image",
+    "name": "IMG_0332",
+    "perspective": "landscape",
+    "w": 4032,
+    "h": 3024,
+    "src": "pictures/full/bvis/IMG_0332.jpg",
+    "msrc": "pictures/thumbs/bvis/IMG_0332.jpg",
+    "msrc2x": "pictures/thumbs/bvis/IMG_0332@2x.jpg",
+    "date": "2015/12/15 16:32:51",
+    "position": {
+      "lat": 18.30315833,
+      "lon": -64.86482222
+    },
+    "altitude": 27
+  },
+  {
+    "type": "image",
+    "name": "IMG_0477",
+    "perspective": "panorama",
+    "w": 16382,
+    "h": 3628,
+    "src": "pictures/full/bvis/IMG_0477.jpg",
+    "msrc": "pictures/thumbs/bvis/IMG_0477.jpg",
+    "msrc2x": "pictures/thumbs/bvis/IMG_0477@2x.jpg",
+    "date": "2015/12/16 06:46:35",
+    "position": {
+      "lat": 18.42758333,
+      "lon": -64.61103056
+    },
+    "altitude": 18
+  },
+  {
+    "type": "image",
+    "name": "IMG_0347",
+    "perspective": "landscape",
+    "w": 4032,
+    "h": 3024,
+    "src": "pictures/full/bvis/IMG_0347.jpg",
+    "msrc": "pictures/thumbs/bvis/IMG_0347.jpg",
+    "msrc2x": "pictures/thumbs/bvis/IMG_0347@2x.jpg",
+    "date": "2015/12/16 07:06:39",
+    "position": {
+      "lat": 18.42743611,
+      "lon": -64.61098611
+    },
+    "altitude": 19
+  },
+  {
+    "type": "image",
+    "name": "DSC05078",
+    "perspective": "landscape",
+    "w": 4912,
+    "h": 3264,
+    "src": "pictures/full/bvis/DSC05078.jpg",
+    "msrc": "pictures/thumbs/bvis/DSC05078.jpg",
+    "msrc2x": "pictures/thumbs/bvis/DSC05078@2x.jpg",
+    "date": "2015/12/16 07:31:37",
+    "position": {
+      "lat": 18.42753056,
+      "lon": -64.61106111
+    },
+    "altitude": 15
+  },
+  {
+    "type": "image",
+    "name": "DSC05080",
+    "perspective": "landscape",
+    "w": 4912,
+    "h": 3264,
+    "src": "pictures/full/bvis/DSC05080.jpg",
+    "msrc": "pictures/thumbs/bvis/DSC05080.jpg",
+    "msrc2x": "pictures/thumbs/bvis/DSC05080@2x.jpg",
+    "date": "2015/12/16 07:33:12",
+    "position": {
+      "lat": 18.42753056,
+      "lon": -64.61106111
+    },
+    "altitude": 15
+  },
+  {
+    "type": "image",
+    "name": "IMG_0349",
+    "perspective": "landscape",
+    "w": 4032,
+    "h": 3024,
+    "src": "pictures/full/bvis/IMG_0349.jpg",
+    "msrc": "pictures/thumbs/bvis/IMG_0349.jpg",
+    "msrc2x": "pictures/thumbs/bvis/IMG_0349@2x.jpg",
+    "date": "2015/12/16 07:47:54",
+    "position": {
+      "lat": 18.42753889,
+      "lon": -64.61101667
+    },
+    "altitude": 7
+  },
+  {
+    "type": "image",
+    "name": "DSC05095",
+    "perspective": "landscape",
+    "w": 4912,
+    "h": 3264,
+    "src": "pictures/full/bvis/DSC05095.jpg",
+    "msrc": "pictures/thumbs/bvis/DSC05095.jpg",
+    "msrc2x": "pictures/thumbs/bvis/DSC05095@2x.jpg",
+    "date": "2015/12/16 08:04:37",
+    "position": {
+      "lat": 18.42861944,
+      "lon": -64.61284722
+    },
+    "altitude": 14
+  },
+  {
+    "type": "image",
+    "name": "DSC05102",
+    "perspective": "landscape",
+    "w": 4912,
+    "h": 3264,
+    "src": "pictures/full/bvis/DSC05102.jpg",
+    "msrc": "pictures/thumbs/bvis/DSC05102.jpg",
+    "msrc2x": "pictures/thumbs/bvis/DSC05102@2x.jpg",
+    "date": "2015/12/16 08:39:08",
+    "position": {
+      "lat": 18.42741944,
+      "lon": -64.61105278
+    },
+    "altitude": 27
+  },
+  {
+    "type": "image",
+    "name": "IMG_0505",
+    "perspective": "landscape",
+    "w": 2576,
+    "h": 1932,
+    "src": "pictures/full/bvis/IMG_0505.jpg",
+    "msrc": "pictures/thumbs/bvis/IMG_0505.jpg",
+    "msrc2x": "pictures/thumbs/bvis/IMG_0505@2x.jpg",
+    "date": "2015/12/16 14:39:19",
+    "position": {
+      "lat": 18.40103611,
+      "lon": -64.51323056
+    },
+    "altitude": 1
+  },
+  {
+    "type": "image",
+    "name": "DSCN2072",
+    "perspective": "portrait",
+    "w": 3456,
+    "h": 4608,
+    "src": "pictures/full/bvis/DSCN2072.jpg",
+    "msrc": "pictures/thumbs/bvis/DSCN2072.jpg",
+    "msrc2x": "pictures/thumbs/bvis/DSCN2072@2x.jpg",
+    "date": "2015/12/16 15:58:15",
+    "position": {
+      "lat": 18.45484722,
+      "lon": -64.44075
+    },
+    "altitude": 110
+  },
+  {
+    "type": "image",
+    "name": "DSCN2077",
+    "perspective": "landscape",
+    "w": 4608,
+    "h": 3456,
+    "src": "pictures/full/bvis/DSCN2077.jpg",
+    "msrc": "pictures/thumbs/bvis/DSCN2077.jpg",
+    "msrc2x": "pictures/thumbs/bvis/DSCN2077@2x.jpg",
+    "date": "2015/12/16 16:00:01",
+    "position": {
+      "lat": 18.45499444,
+      "lon": -64.44075833
+    },
+    "altitude": 110
+  },
+  {
+    "type": "image",
+    "name": "DSCN2081",
+    "perspective": "landscape",
+    "w": 4608,
+    "h": 3456,
+    "src": "pictures/full/bvis/DSCN2081.jpg",
+    "msrc": "pictures/thumbs/bvis/DSCN2081.jpg",
+    "msrc2x": "pictures/thumbs/bvis/DSCN2081@2x.jpg",
+    "date": "2015/12/16 16:26:53",
+    "position": {
+      "lat": 18.45560556,
+      "lon": -64.44119167
+    },
+    "altitude": 0
+  },
+  {
+    "type": "image",
+    "name": "DSC04187",
+    "perspective": "landscape",
+    "w": 4912,
+    "h": 3264,
+    "src": "pictures/full/bvis/DSC04187.jpg",
+    "msrc": "pictures/thumbs/bvis/DSC04187.jpg",
+    "msrc2x": "pictures/thumbs/bvis/DSC04187@2x.jpg",
+    "date": "2015/12/16 18:22:22",
+    "position": {
+      "lat": 18.4556,
+      "lon": -64.44162778
+    },
+    "altitude": 8
+  },
+  {
+    "type": "image",
+    "name": "DSC04192",
+    "perspective": "landscape",
+    "w": 4912,
+    "h": 3264,
+    "src": "pictures/full/bvis/DSC04192.jpg",
+    "msrc": "pictures/thumbs/bvis/DSC04192.jpg",
+    "msrc2x": "pictures/thumbs/bvis/DSC04192@2x.jpg",
+    "date": "2015/12/16 18:24:07",
+    "position": {
+      "lat": 18.4556,
+      "lon": -64.44162778
+    },
+    "altitude": 8
+  },
+  {
+    "type": "image",
+    "name": "DSC05185",
+    "perspective": "landscape",
+    "w": 4077,
+    "h": 2912,
+    "src": "pictures/full/bvis/DSC05185.jpg",
+    "msrc": "pictures/thumbs/bvis/DSC05185.jpg",
+    "msrc2x": "pictures/thumbs/bvis/DSC05185@2x.jpg",
+    "date": "2015/12/17 05:46:50",
+    "position": {
+      "lat": 18.45548889,
+      "lon": -64.44154444
+    },
+    "altitude": 19
+  },
+  {
+    "type": "image",
+    "name": "DSCN2088",
+    "perspective": "landscape",
+    "w": 4608,
+    "h": 3456,
+    "src": "pictures/full/bvis/DSCN2088.jpg",
+    "msrc": "pictures/thumbs/bvis/DSCN2088.jpg",
+    "msrc2x": "pictures/thumbs/bvis/DSCN2088@2x.jpg",
+    "date": "2015/12/17 09:11:42",
+    "position": {
+      "lat": 18.42770833,
+      "lon": -64.44815833
+    },
+    "altitude": 0
+  },
+  {
+    "type": "image",
+    "name": "DSCN2092",
+    "perspective": "landscape",
+    "w": 3419,
+    "h": 2442,
+    "src": "pictures/full/bvis/DSCN2092.jpg",
+    "msrc": "pictures/thumbs/bvis/DSCN2092.jpg",
+    "msrc2x": "pictures/thumbs/bvis/DSCN2092@2x.jpg",
+    "date": "2015/12/17 09:14:58",
+    "position": {
+      "lat": 18.42770833,
+      "lon": -64.44815833
+    },
+    "altitude": 0
+  },
+  {
+    "type": "image",
+    "name": "DSCN2102",
+    "perspective": "landscape",
+    "w": 4608,
+    "h": 3456,
+    "src": "pictures/full/bvis/DSCN2102.jpg",
+    "msrc": "pictures/thumbs/bvis/DSCN2102.jpg",
+    "msrc2x": "pictures/thumbs/bvis/DSCN2102@2x.jpg",
+    "date": "2015/12/17 09:29:48",
+    "position": {
+      "lat": 18.42770833,
+      "lon": -64.44815833
+    },
+    "altitude": 0
+  },
+  {
+    "type": "image",
+    "name": "DSCN2103",
+    "perspective": "landscape",
+    "w": 4608,
+    "h": 3456,
+    "src": "pictures/full/bvis/DSCN2103.jpg",
+    "msrc": "pictures/thumbs/bvis/DSCN2103.jpg",
+    "msrc2x": "pictures/thumbs/bvis/DSCN2103@2x.jpg",
+    "date": "2015/12/17 09:29:55",
+    "position": {
+      "lat": 18.42770833,
+      "lon": -64.44815833
+    },
+    "altitude": 0
+  },
+  {
+    "type": "image",
+    "name": "DSCN2105",
+    "perspective": "portrait",
+    "w": 3456,
+    "h": 4608,
+    "src": "pictures/full/bvis/DSCN2105.jpg",
+    "msrc": "pictures/thumbs/bvis/DSCN2105.jpg",
+    "msrc2x": "pictures/thumbs/bvis/DSCN2105@2x.jpg",
+    "date": "2015/12/17 09:31:45",
+    "position": {
+      "lat": 18.42770833,
+      "lon": -64.44815833
+    },
+    "altitude": 0
+  },
+  {
+    "type": "image",
+    "name": "DSCN2109",
+    "perspective": "landscape",
+    "w": 4608,
+    "h": 3456,
+    "src": "pictures/full/bvis/DSCN2109.jpg",
+    "msrc": "pictures/thumbs/bvis/DSCN2109.jpg",
+    "msrc2x": "pictures/thumbs/bvis/DSCN2109@2x.jpg",
+    "date": "2015/12/17 09:33:04",
+    "position": {
+      "lat": 18.42770833,
+      "lon": -64.44815833
+    },
+    "altitude": 0
+  },
+  {
+    "type": "image",
+    "name": "DSCN2117",
+    "perspective": "landscape",
+    "w": 4608,
+    "h": 3456,
+    "src": "pictures/full/bvis/DSCN2117.jpg",
+    "msrc": "pictures/thumbs/bvis/DSCN2117.jpg",
+    "msrc2x": "pictures/thumbs/bvis/DSCN2117@2x.jpg",
+    "date": "2015/12/17 09:41:11",
+    "position": {
+      "lat": 18.42770833,
+      "lon": -64.44815833
+    },
+    "altitude": 0
+  },
+  {
+    "type": "image",
+    "name": "DSCN2121",
+    "perspective": "landscape",
+    "w": 4608,
+    "h": 3456,
+    "src": "pictures/full/bvis/DSCN2121.jpg",
+    "msrc": "pictures/thumbs/bvis/DSCN2121.jpg",
+    "msrc2x": "pictures/thumbs/bvis/DSCN2121@2x.jpg",
+    "date": "2015/12/17 09:41:49",
+    "position": {
+      "lat": 18.42770833,
+      "lon": -64.44815833
+    },
+    "altitude": 0
+  },
+  {
+    "type": "image",
+    "name": "DSCN2122",
+    "perspective": "landscape",
+    "w": 4608,
+    "h": 3456,
+    "src": "pictures/full/bvis/DSCN2122.jpg",
+    "msrc": "pictures/thumbs/bvis/DSCN2122.jpg",
+    "msrc2x": "pictures/thumbs/bvis/DSCN2122@2x.jpg",
+    "date": "2015/12/17 09:41:57",
+    "position": {
+      "lat": 18.42770833,
+      "lon": -64.44815833
+    },
+    "altitude": 0
+  },
+  {
+    "type": "image",
+    "name": "DSCN2125",
+    "perspective": "landscape",
+    "w": 4608,
+    "h": 3456,
+    "src": "pictures/full/bvis/DSCN2125.jpg",
+    "msrc": "pictures/thumbs/bvis/DSCN2125.jpg",
+    "msrc2x": "pictures/thumbs/bvis/DSCN2125@2x.jpg",
+    "date": "2015/12/17 09:42:08",
+    "position": {
+      "lat": 18.42770833,
+      "lon": -64.44815833
+    },
+    "altitude": 0
+  },
+  {
+    "type": "image",
+    "name": "DSCN2135",
+    "perspective": "landscape",
+    "w": 4608,
+    "h": 3456,
+    "src": "pictures/full/bvis/DSCN2135.jpg",
+    "msrc": "pictures/thumbs/bvis/DSCN2135.jpg",
+    "msrc2x": "pictures/thumbs/bvis/DSCN2135@2x.jpg",
+    "date": "2015/12/17 09:52:07",
+    "position": {
+      "lat": 18.42770833,
+      "lon": -64.44815833
+    },
+    "altitude": 0
+  },
+  {
+    "type": "image",
+    "name": "DSCN2136",
+    "perspective": "landscape",
+    "w": 4608,
+    "h": 3456,
+    "src": "pictures/full/bvis/DSCN2136.jpg",
+    "msrc": "pictures/thumbs/bvis/DSCN2136.jpg",
+    "msrc2x": "pictures/thumbs/bvis/DSCN2136@2x.jpg",
+    "date": "2015/12/17 09:55:19",
+    "position": {
+      "lat": 18.42770833,
+      "lon": -64.44815833
+    },
+    "altitude": 0
+  },
+  {
+    "type": "image",
+    "name": "DSCN2142",
+    "perspective": "portrait",
+    "w": 3456,
+    "h": 4608,
+    "src": "pictures/full/bvis/DSCN2142.jpg",
+    "msrc": "pictures/thumbs/bvis/DSCN2142.jpg",
+    "msrc2x": "pictures/thumbs/bvis/DSCN2142@2x.jpg",
+    "date": "2015/12/17 10:01:19",
+    "position": {
+      "lat": 18.42770833,
+      "lon": -64.44815833
+    },
+    "altitude": 0
+  },
+  {
+    "type": "image",
+    "name": "DSCN2143",
+    "perspective": "landscape",
+    "w": 4608,
+    "h": 3456,
+    "src": "pictures/full/bvis/DSCN2143.jpg",
+    "msrc": "pictures/thumbs/bvis/DSCN2143.jpg",
+    "msrc2x": "pictures/thumbs/bvis/DSCN2143@2x.jpg",
+    "date": "2015/12/17 10:01:48",
+    "position": {
+      "lat": 18.42770833,
+      "lon": -64.44815833
+    },
+    "altitude": 0
+  },
+  {
+    "type": "image",
+    "name": "DSCN2153",
+    "perspective": "landscape",
+    "w": 4608,
+    "h": 3456,
+    "src": "pictures/full/bvis/DSCN2153.jpg",
+    "msrc": "pictures/thumbs/bvis/DSCN2153.jpg",
+    "msrc2x": "pictures/thumbs/bvis/DSCN2153@2x.jpg",
+    "date": "2015/12/17 10:05:44",
+    "position": {
+      "lat": 18.42777222,
+      "lon": -64.44825833
+    },
+    "altitude": 0
+  },
+  {
+    "type": "image",
+    "name": "DSCN2158",
+    "perspective": "landscape",
+    "w": 4608,
+    "h": 3456,
+    "src": "pictures/full/bvis/DSCN2158.jpg",
+    "msrc": "pictures/thumbs/bvis/DSCN2158.jpg",
+    "msrc2x": "pictures/thumbs/bvis/DSCN2158@2x.jpg",
+    "date": "2015/12/17 10:06:50",
+    "position": {
+      "lat": 18.42887778,
+      "lon": -64.44539722
+    },
+    "altitude": 0
+  },
+  {
+    "type": "image",
+    "name": "IMG_0514",
+    "perspective": "portrait",
+    "w": 3024,
+    "h": 4032,
+    "src": "pictures/full/bvis/IMG_0514.jpg",
+    "msrc": "pictures/thumbs/bvis/IMG_0514.jpg",
+    "msrc2x": "pictures/thumbs/bvis/IMG_0514@2x.jpg",
+    "date": "2015/12/17 13:08:53",
+    "position": {
+      "lat": 18.46478333,
+      "lon": -64.44564167
+    },
+    "altitude": 0
+  },
+  {
+    "type": "image",
+    "name": "IMG_0369",
+    "perspective": "portrait",
+    "w": 3024,
+    "h": 4032,
+    "src": "pictures/full/bvis/IMG_0369.jpg",
+    "msrc": "pictures/thumbs/bvis/IMG_0369.jpg",
+    "msrc2x": "pictures/thumbs/bvis/IMG_0369@2x.jpg",
+    "date": "2015/12/17 19:55:49",
+    "position": {
+      "lat": 18.50265,
+      "lon": -64.36115278
+    },
+    "altitude": 5
+  },
+  {
+    "type": "image",
+    "name": "DSC04226",
+    "perspective": "landscape",
+    "w": 4912,
+    "h": 3264,
+    "src": "pictures/full/bvis/DSC04226.jpg",
+    "msrc": "pictures/thumbs/bvis/DSC04226.jpg",
+    "msrc2x": "pictures/thumbs/bvis/DSC04226@2x.jpg",
+    "date": "2015/12/17 20:11:11",
+    "position": {
+      "lat": 18.50238889,
+      "lon": -64.36145
+    },
+    "altitude": 6
+  },
+  {
+    "type": "image",
+    "name": "DSC05250",
+    "perspective": "landscape",
+    "w": 4892,
+    "h": 3250,
+    "src": "pictures/full/bvis/DSC05250.jpg",
+    "msrc": "pictures/thumbs/bvis/DSC05250.jpg",
+    "msrc2x": "pictures/thumbs/bvis/DSC05250@2x.jpg",
+    "date": "2015/12/18 05:35:35",
+    "position": {
+      "lat": 18.50263056,
+      "lon": -64.36116111
+    },
+    "altitude": 15
+  },
+  {
+    "type": "image",
+    "name": "DSC05271",
+    "perspective": "landscape",
+    "w": 4912,
+    "h": 3264,
+    "src": "pictures/full/bvis/DSC05271.jpg",
+    "msrc": "pictures/thumbs/bvis/DSC05271.jpg",
+    "msrc2x": "pictures/thumbs/bvis/DSC05271@2x.jpg",
+    "date": "2015/12/18 09:36:56",
+    "position": {
+      "lat": 18.50341111,
+      "lon": -64.35849722
+    },
+    "altitude": 1
+  },
+  {
+    "type": "image",
+    "name": "DSC05277",
+    "perspective": "landscape",
+    "w": 4912,
+    "h": 3264,
+    "src": "pictures/full/bvis/DSC05277.jpg",
+    "msrc": "pictures/thumbs/bvis/DSC05277.jpg",
+    "msrc2x": "pictures/thumbs/bvis/DSC05277@2x.jpg",
+    "date": "2015/12/18 09:48:24",
+    "position": {
+      "lat": 18.50886944,
+      "lon": -64.37822778
+    },
+    "altitude": 0
+  },
+  {
+    "type": "image",
+    "name": "DSC05279",
+    "perspective": "landscape",
+    "w": 4912,
+    "h": 3264,
+    "src": "pictures/full/bvis/DSC05279.jpg",
+    "msrc": "pictures/thumbs/bvis/DSC05279.jpg",
+    "msrc2x": "pictures/thumbs/bvis/DSC05279@2x.jpg",
+    "date": "2015/12/18 13:38:34",
+    "position": {
+      "lat": 18.72753056,
+      "lon": -64.33389167
+    },
+    "altitude": 0
+  },
+  {
+    "type": "image",
+    "name": "DSCN2171",
+    "perspective": "landscape",
+    "w": 4608,
+    "h": 3456,
+    "src": "pictures/full/bvis/DSCN2171.jpg",
+    "msrc": "pictures/thumbs/bvis/DSCN2171.jpg",
+    "msrc2x": "pictures/thumbs/bvis/DSCN2171@2x.jpg",
+    "date": "2015/12/18 13:46:35",
+    "position": {
+      "lat": 18.74259444,
+      "lon": -64.31358333
+    },
+    "altitude": 17
+  },
+  {
+    "type": "image",
+    "name": "DSCN2172",
+    "perspective": "landscape",
+    "w": 4608,
+    "h": 3456,
+    "src": "pictures/full/bvis/DSCN2172.jpg",
+    "msrc": "pictures/thumbs/bvis/DSCN2172.jpg",
+    "msrc2x": "pictures/thumbs/bvis/DSCN2172@2x.jpg",
+    "date": "2015/12/18 13:49:01",
+    "position": {
+      "lat": 18.74235556,
+      "lon": -64.31325556
+    },
+    "altitude": 17
+  },
+  {
+    "type": "image",
+    "name": "DSCN2178",
+    "perspective": "landscape",
+    "w": 4608,
+    "h": 3456,
+    "src": "pictures/full/bvis/DSCN2178.jpg",
+    "msrc": "pictures/thumbs/bvis/DSCN2178.jpg",
+    "msrc2x": "pictures/thumbs/bvis/DSCN2178@2x.jpg",
+    "date": "2015/12/18 13:55:32",
+    "position": {
+      "lat": 18.74254444,
+      "lon": -64.31309444
+    },
+    "altitude": 0
+  },
+  {
+    "type": "image",
+    "name": "DSCN2181",
+    "perspective": "landscape",
+    "w": 4608,
+    "h": 3456,
+    "src": "pictures/full/bvis/DSCN2181.jpg",
+    "msrc": "pictures/thumbs/bvis/DSCN2181.jpg",
+    "msrc2x": "pictures/thumbs/bvis/DSCN2181@2x.jpg",
+    "date": "2015/12/18 14:05:27",
+    "position": {
+      "lat": 18.74295556,
+      "lon": -64.31336111
+    },
+    "altitude": 0
+  },
+  {
+    "type": "image",
+    "name": "DSCN2190",
+    "perspective": "landscape",
+    "w": 4608,
+    "h": 3456,
+    "src": "pictures/full/bvis/DSCN2190.jpg",
+    "msrc": "pictures/thumbs/bvis/DSCN2190.jpg",
+    "msrc2x": "pictures/thumbs/bvis/DSCN2190@2x.jpg",
+    "date": "2015/12/18 14:19:58",
+    "position": {
+      "lat": 18.74297222,
+      "lon": -64.31224167
+    },
+    "altitude": 0
+  },
+  {
+    "type": "image",
+    "name": "DSCN2194",
+    "perspective": "portrait",
+    "w": 3456,
+    "h": 4608,
+    "src": "pictures/full/bvis/DSCN2194.jpg",
+    "msrc": "pictures/thumbs/bvis/DSCN2194.jpg",
+    "msrc2x": "pictures/thumbs/bvis/DSCN2194@2x.jpg",
+    "date": "2015/12/18 14:25:23",
+    "position": {
+      "lat": 18.74241944,
+      "lon": -64.3133
+    },
+    "altitude": 3
+  },
+  {
+    "type": "image",
+    "name": "DSC04270",
+    "perspective": "landscape",
+    "w": 4912,
+    "h": 3264,
+    "src": "pictures/full/bvis/DSC04270.jpg",
+    "msrc": "pictures/thumbs/bvis/DSC04270.jpg",
+    "msrc2x": "pictures/thumbs/bvis/DSC04270@2x.jpg",
+    "date": "2015/12/19 16:01:50",
+    "position": {
+      "lat": 18.46088056,
+      "lon": -64.52752778
+    },
+    "altitude": 47
+  },
+  {
+    "type": "image",
+    "name": "DSC04286",
+    "perspective": "landscape",
+    "w": 4912,
+    "h": 3264,
+    "src": "pictures/full/bvis/DSC04286.jpg",
+    "msrc": "pictures/thumbs/bvis/DSC04286.jpg",
+    "msrc2x": "pictures/thumbs/bvis/DSC04286@2x.jpg",
+    "date": "2015/12/19 17:46:05",
+    "position": {
+      "lat": 18.46051944,
+      "lon": -64.52554444
+    },
+    "altitude": 0
+  },
+  {
+    "type": "image",
+    "name": "DSC04302",
+    "perspective": "landscape",
+    "w": 4912,
+    "h": 3264,
+    "src": "pictures/full/bvis/DSC04302.jpg",
+    "msrc": "pictures/thumbs/bvis/DSC04302.jpg",
+    "msrc2x": "pictures/thumbs/bvis/DSC04302@2x.jpg",
+    "date": "2015/12/19 18:00:25",
+    "position": {
+      "lat": 18.46126944,
+      "lon": -64.52501667
+    },
+    "altitude": 27
+  },
+  {
+    "type": "image",
+    "name": "IMG_0410",
+    "perspective": "portrait",
+    "w": 3024,
+    "h": 4032,
+    "src": "pictures/full/bvis/IMG_0410.jpg",
+    "msrc": "pictures/thumbs/bvis/IMG_0410.jpg",
+    "msrc2x": "pictures/thumbs/bvis/IMG_0410@2x.jpg",
+    "date": "2015/12/20 08:58:10",
+    "position": {
+      "lat": 18.46055833,
+      "lon": -64.52588611
+    },
+    "altitude": 27
+  },
+  {
+    "type": "image",
+    "name": "IMG_0411",
+    "perspective": "portrait",
+    "w": 3024,
+    "h": 4032,
+    "src": "pictures/full/bvis/IMG_0411.jpg",
+    "msrc": "pictures/thumbs/bvis/IMG_0411.jpg",
+    "msrc2x": "pictures/thumbs/bvis/IMG_0411@2x.jpg",
+    "date": "2015/12/20 08:58:12",
+    "position": {
+      "lat": 18.46068333,
+      "lon": -64.52766389
+    },
+    "altitude": 10
+  },
+  {
+    "type": "image",
+    "name": "DSC04357",
+    "perspective": "landscape",
+    "w": 4912,
+    "h": 3264,
+    "src": "pictures/full/bvis/DSC04357.jpg",
+    "msrc": "pictures/thumbs/bvis/DSC04357.jpg",
+    "msrc2x": "pictures/thumbs/bvis/DSC04357@2x.jpg",
+    "date": "2015/12/20 08:59:59",
+    "position": {
+      "lat": 18.46051944,
+      "lon": -64.52588611
+    },
+    "altitude": 12
+  },
+  {
+    "type": "image",
+    "name": "DSC04363",
+    "perspective": "landscape",
+    "w": 4912,
+    "h": 3264,
+    "src": "pictures/full/bvis/DSC04363.jpg",
+    "msrc": "pictures/thumbs/bvis/DSC04363.jpg",
+    "msrc2x": "pictures/thumbs/bvis/DSC04363@2x.jpg",
+    "date": "2015/12/20 09:00:39",
+    "position": {
+      "lat": 18.46051944,
+      "lon": -64.52588611
+    },
+    "altitude": 12
+  },
+  {
+    "type": "image",
+    "name": "DSC04376",
+    "perspective": "landscape",
+    "w": 4912,
+    "h": 3264,
+    "src": "pictures/full/bvis/DSC04376.jpg",
+    "msrc": "pictures/thumbs/bvis/DSC04376.jpg",
+    "msrc2x": "pictures/thumbs/bvis/DSC04376@2x.jpg",
+    "date": "2015/12/20 10:58:04",
+    "position": {
+      "lat": 18.4493,
+      "lon": -64.66213333
+    },
+    "altitude": 15
+  },
+  {
+    "type": "image",
+    "name": "Diamond_Cay",
+    "perspective": "panorama",
+    "w": 4637,
+    "h": 1915,
+    "src": "pictures/full/bvis/Diamond_Cay.jpg",
+    "msrc": "pictures/thumbs/bvis/Diamond_Cay.jpg",
+    "msrc2x": "pictures/thumbs/bvis/Diamond_Cay@2x.jpg",
+    "date": "2015/12/20 12:08:10",
+    "position": {
+      "lat": 18.45053889,
+      "lon": -64.72283889
+    },
+    "altitude": 11
+  },
+  {
+    "type": "image",
+    "name": "DSC05347",
+    "perspective": "landscape",
+    "w": 4912,
+    "h": 3264,
+    "src": "pictures/full/bvis/DSC05347.jpg",
+    "msrc": "pictures/thumbs/bvis/DSC05347.jpg",
+    "msrc2x": "pictures/thumbs/bvis/DSC05347@2x.jpg",
+    "date": "2015/12/20 12:28:56",
+    "position": {
+      "lat": 18.45053889,
+      "lon": -64.72283889
+    },
+    "altitude": 11
+  },
+  {
+    "type": "image",
+    "name": "DSC04384",
+    "perspective": "landscape",
+    "w": 4912,
+    "h": 3264,
+    "src": "pictures/full/bvis/DSC04384.jpg",
+    "msrc": "pictures/thumbs/bvis/DSC04384.jpg",
+    "msrc2x": "pictures/thumbs/bvis/DSC04384@2x.jpg",
+    "date": "2015/12/20 13:10:53",
+    "position": {
+      "lat": 18.44983056,
+      "lon": -64.72650833
+    },
+    "altitude": 9
+  },
+  {
+    "type": "image",
+    "name": "DSC05367",
+    "perspective": "landscape",
+    "w": 4912,
+    "h": 3264,
+    "src": "pictures/full/bvis/DSC05367.jpg",
+    "msrc": "pictures/thumbs/bvis/DSC05367.jpg",
+    "msrc2x": "pictures/thumbs/bvis/DSC05367@2x.jpg",
+    "date": "2015/12/20 13:27:05",
+    "position": {
+      "lat": 18.45246944,
+      "lon": -64.72884444
+    },
+    "altitude": 13
+  },
+  {
+    "type": "image",
+    "name": "DSC04404",
+    "perspective": "landscape",
+    "w": 4912,
+    "h": 3264,
+    "src": "pictures/full/bvis/DSC04404.jpg",
+    "msrc": "pictures/thumbs/bvis/DSC04404.jpg",
+    "msrc2x": "pictures/thumbs/bvis/DSC04404@2x.jpg",
+    "date": "2015/12/20 13:30:22",
+    "position": {
+      "lat": 18.45393056,
+      "lon": -64.72966667
+    },
+    "altitude": 10
+  },
+  {
+    "type": "image",
+    "name": "DSC04406",
+    "perspective": "landscape",
+    "w": 4912,
+    "h": 3264,
+    "src": "pictures/full/bvis/DSC04406.jpg",
+    "msrc": "pictures/thumbs/bvis/DSC04406.jpg",
+    "msrc2x": "pictures/thumbs/bvis/DSC04406@2x.jpg",
+    "date": "2015/12/20 13:31:14",
+    "position": {
+      "lat": 18.45393056,
+      "lon": -64.72966667
+    },
+    "altitude": 10
+  },
+  {
+    "type": "image",
+    "name": "DSC04408",
+    "perspective": "landscape",
+    "w": 4912,
+    "h": 3264,
+    "src": "pictures/full/bvis/DSC04408.jpg",
+    "msrc": "pictures/thumbs/bvis/DSC04408.jpg",
+    "msrc2x": "pictures/thumbs/bvis/DSC04408@2x.jpg",
+    "date": "2015/12/20 13:32:26",
+    "position": {
+      "lat": 18.45393056,
+      "lon": -64.72966667
+    },
+    "altitude": 10
+  },
+  {
+    "type": "image",
+    "name": "DSC04409",
+    "perspective": "landscape",
+    "w": 4912,
+    "h": 3264,
+    "src": "pictures/full/bvis/DSC04409.jpg",
+    "msrc": "pictures/thumbs/bvis/DSC04409.jpg",
+    "msrc2x": "pictures/thumbs/bvis/DSC04409@2x.jpg",
+    "date": "2015/12/20 13:32:35",
+    "position": {
+      "lat": 18.45393056,
+      "lon": -64.72966667
+    },
+    "altitude": 10
+  },
+  {
+    "type": "image",
+    "name": "DSC04410",
+    "perspective": "landscape",
+    "w": 4912,
+    "h": 3264,
+    "src": "pictures/full/bvis/DSC04410.jpg",
+    "msrc": "pictures/thumbs/bvis/DSC04410.jpg",
+    "msrc2x": "pictures/thumbs/bvis/DSC04410@2x.jpg",
+    "date": "2015/12/20 13:32:50",
+    "position": {
+      "lat": 18.45393056,
+      "lon": -64.72966667
+    },
+    "altitude": 10
+  },
+  {
+    "type": "image",
+    "name": "DSC04484",
+    "perspective": "landscape",
+    "w": 4912,
+    "h": 3264,
+    "src": "pictures/full/bvis/DSC04484.jpg",
+    "msrc": "pictures/thumbs/bvis/DSC04484.jpg",
+    "msrc2x": "pictures/thumbs/bvis/DSC04484@2x.jpg",
+    "date": "2015/12/20 14:24:34",
+    "position": {
+      "lat": 18.45393056,
+      "lon": -64.72966667
+    },
+    "altitude": 10
+  },
+  {
+    "type": "image",
+    "name": "IMG_0425",
+    "perspective": "landscape",
+    "w": 2576,
+    "h": 1932,
+    "src": "pictures/full/bvis/IMG_0425.jpg",
+    "msrc": "pictures/thumbs/bvis/IMG_0425.jpg",
+    "msrc2x": "pictures/thumbs/bvis/IMG_0425@2x.jpg",
+    "date": "2015/12/20 17:16:21",
+    "position": {
+      "lat": 18.4426,
+      "lon": -64.75164167
+    },
+    "altitude": 21
+  },
+  {
+    "type": "image",
+    "name": "IMG_0427",
+    "perspective": "landscape",
+    "w": 2576,
+    "h": 1932,
+    "src": "pictures/full/bvis/IMG_0427.jpg",
+    "msrc": "pictures/thumbs/bvis/IMG_0427.jpg",
+    "msrc2x": "pictures/thumbs/bvis/IMG_0427@2x.jpg",
+    "date": "2015/12/20 17:16:25",
+    "position": {
+      "lat": 18.44260556,
+      "lon": -64.75164167
+    },
+    "altitude": 21
+  },
+  {
+    "type": "image",
+    "name": "IMG_0434",
+    "perspective": "panorama",
+    "w": 16346,
+    "h": 3772,
+    "src": "pictures/full/bvis/IMG_0434.jpg",
+    "msrc": "pictures/thumbs/bvis/IMG_0434.jpg",
+    "msrc2x": "pictures/thumbs/bvis/IMG_0434@2x.jpg",
+    "date": "2015/12/20 17:18:42",
+    "position": {
+      "lat": 18.44258611,
+      "lon": -64.75156389
+    },
+    "altitude": 11
+  },
+  {
+    "type": "image",
+    "name": "DSC05381",
+    "perspective": "portrait",
+    "w": 3264,
+    "h": 4912,
+    "src": "pictures/full/bvis/DSC05381.jpg",
+    "msrc": "pictures/thumbs/bvis/DSC05381.jpg",
+    "msrc2x": "pictures/thumbs/bvis/DSC05381@2x.jpg",
+    "date": "2015/12/21 06:24:10",
+    "position": {
+      "lat": 18.44283056,
+      "lon": -64.75173056
+    },
+    "altitude": 12
+  },
+  {
+    "type": "image",
+    "name": "DSC05409",
+    "perspective": "landscape",
+    "w": 4912,
+    "h": 3264,
+    "src": "pictures/full/bvis/DSC05409.jpg",
+    "msrc": "pictures/thumbs/bvis/DSC05409.jpg",
+    "msrc2x": "pictures/thumbs/bvis/DSC05409@2x.jpg",
+    "date": "2015/12/21 06:44:19",
+    "position": {
+      "lat": 18.44283056,
+      "lon": -64.75173056
+    },
+    "altitude": 12
+  },
+  {
+    "type": "image",
+    "name": "DSC05411",
+    "perspective": "landscape",
+    "w": 4912,
+    "h": 3264,
+    "src": "pictures/full/bvis/DSC05411.jpg",
+    "msrc": "pictures/thumbs/bvis/DSC05411.jpg",
+    "msrc2x": "pictures/thumbs/bvis/DSC05411@2x.jpg",
+    "date": "2015/12/21 06:44:37",
+    "position": {
+      "lat": 18.44283056,
+      "lon": -64.75173056
+    },
+    "altitude": 12
+  },
+  {
+    "type": "image",
+    "name": "DSC04497",
+    "perspective": "landscape",
+    "w": 4912,
+    "h": 3264,
+    "src": "pictures/full/bvis/DSC04497.jpg",
+    "msrc": "pictures/thumbs/bvis/DSC04497.jpg",
+    "msrc2x": "pictures/thumbs/bvis/DSC04497@2x.jpg",
+    "date": "2015/12/21 08:25:45",
+    "position": {
+      "lat": 18.44283056,
+      "lon": -64.75173056
+    },
+    "altitude": 12
+  },
+  {
+    "type": "image",
+    "name": "Great_Harbour_2",
+    "perspective": "panorama",
+    "w": 6180,
+    "h": 1932,
+    "src": "pictures/full/bvis/Great_Harbour_2.jpg",
+    "msrc": "pictures/thumbs/bvis/Great_Harbour_2.jpg",
+    "msrc2x": "pictures/thumbs/bvis/Great_Harbour_2@2x.jpg",
+    "date": "2015/12/21 08:30:01",
+    "position": {
+      "lat": 18.44283056,
+      "lon": -64.75173056
+    },
+    "altitude": 12
+  },
+  {
+    "type": "image",
+    "name": "Great_Harbour_1",
+    "perspective": "panorama",
+    "w": 9541,
+    "h": 1680,
+    "src": "pictures/full/bvis/Great_Harbour_1.jpg",
+    "msrc": "pictures/thumbs/bvis/Great_Harbour_1.jpg",
+    "msrc2x": "pictures/thumbs/bvis/Great_Harbour_1@2x.jpg",
+    "date": "2015/12/21 08:30:10",
+    "position": {
+      "lat": 18.44283056,
+      "lon": -64.75173056
+    },
+    "altitude": 12
+  },
+  {
+    "type": "image",
+    "name": "DSC04544",
+    "perspective": "landscape",
+    "w": 4912,
+    "h": 3264,
+    "src": "pictures/full/bvis/DSC04544.jpg",
+    "msrc": "pictures/thumbs/bvis/DSC04544.jpg",
+    "msrc2x": "pictures/thumbs/bvis/DSC04544@2x.jpg",
+    "date": "2015/12/21 08:30:33",
+    "position": {
+      "lat": 18.44283056,
+      "lon": -64.75173056
+    },
+    "altitude": 12
+  },
+  {
+    "type": "image",
+    "name": "DSC04577",
+    "perspective": "landscape",
+    "w": 4912,
+    "h": 3264,
+    "src": "pictures/full/bvis/DSC04577.jpg",
+    "msrc": "pictures/thumbs/bvis/DSC04577.jpg",
+    "msrc2x": "pictures/thumbs/bvis/DSC04577@2x.jpg",
+    "date": "2015/12/21 10:41:56",
+    "position": {
+      "lat": 18.45091111,
+      "lon": -64.70977778
+    },
+    "altitude": 10
+  },
+  {
+    "type": "image",
+    "name": "DSCN2203",
+    "perspective": "landscape",
+    "w": 4608,
+    "h": 3456,
+    "src": "pictures/full/bvis/DSCN2203.jpg",
+    "msrc": "pictures/thumbs/bvis/DSCN2203.jpg",
+    "msrc2x": "pictures/thumbs/bvis/DSCN2203@2x.jpg",
+    "date": "2015/12/21 12:38:45",
+    "position": {
+      "lat": 18.43570278,
+      "lon": -64.71071667
+    },
+    "altitude": 8
+  },
+  {
+    "type": "image",
+    "name": "DSCN2208",
+    "perspective": "landscape",
+    "w": 4608,
+    "h": 3456,
+    "src": "pictures/full/bvis/DSCN2208.jpg",
+    "msrc": "pictures/thumbs/bvis/DSCN2208.jpg",
+    "msrc2x": "pictures/thumbs/bvis/DSCN2208@2x.jpg",
+    "date": "2015/12/21 12:45:43",
+    "position": {
+      "lat": 18.43556111,
+      "lon": -64.7108
+    },
+    "altitude": 12
+  },
+  {
+    "type": "image",
+    "name": "DSCN2209",
+    "perspective": "landscape",
+    "w": 4608,
+    "h": 3456,
+    "src": "pictures/full/bvis/DSCN2209.jpg",
+    "msrc": "pictures/thumbs/bvis/DSCN2209.jpg",
+    "msrc2x": "pictures/thumbs/bvis/DSCN2209@2x.jpg",
+    "date": "2015/12/21 12:51:35",
+    "position": {
+      "lat": 18.43556111,
+      "lon": -64.7108
+    },
+    "altitude": 12
+  },
+  {
+    "type": "image",
+    "name": "DSCN2220",
+    "perspective": "landscape",
+    "w": 4608,
+    "h": 3456,
+    "src": "pictures/full/bvis/DSCN2220.jpg",
+    "msrc": "pictures/thumbs/bvis/DSCN2220.jpg",
+    "msrc2x": "pictures/thumbs/bvis/DSCN2220@2x.jpg",
+    "date": "2015/12/21 12:56:12",
+    "position": {
+      "lat": 18.43663611,
+      "lon": -64.71024444
+    },
+    "altitude": 11
+  },
+  {
+    "type": "image",
+    "name": "DSCN2228",
+    "perspective": "landscape",
+    "w": 4331,
+    "h": 3094,
+    "src": "pictures/full/bvis/DSCN2228.jpg",
+    "msrc": "pictures/thumbs/bvis/DSCN2228.jpg",
+    "msrc2x": "pictures/thumbs/bvis/DSCN2228@2x.jpg",
+    "date": "2015/12/21 13:15:15",
+    "position": {
+      "lat": 18.43540278,
+      "lon": -64.71078611
+    },
+    "altitude": 9
+  },
+  {
+    "type": "image",
+    "name": "DSCN2230",
+    "perspective": "landscape",
+    "w": 4608,
+    "h": 3456,
+    "src": "pictures/full/bvis/DSCN2230.jpg",
+    "msrc": "pictures/thumbs/bvis/DSCN2230.jpg",
+    "msrc2x": "pictures/thumbs/bvis/DSCN2230@2x.jpg",
+    "date": "2015/12/21 13:17:16",
+    "position": {
+      "lat": 18.43545556,
+      "lon": -64.71081667
+    },
+    "altitude": 9
+  },
+  {
+    "type": "image",
+    "name": "DSC04609",
+    "perspective": "landscape",
+    "w": 4912,
+    "h": 3264,
+    "src": "pictures/full/bvis/DSC04609.jpg",
+    "msrc": "pictures/thumbs/bvis/DSC04609.jpg",
+    "msrc2x": "pictures/thumbs/bvis/DSC04609@2x.jpg",
+    "date": "2015/12/21 13:42:02",
+    "position": {
+      "lat": 18.43583889,
+      "lon": -64.71234167
+    },
+    "altitude": 4
+  },
+  {
+    "type": "image",
+    "name": "IMG_0625",
+    "perspective": "landscape",
+    "w": 4032,
+    "h": 3024,
+    "src": "pictures/full/bvis/IMG_0625.jpg",
+    "msrc": "pictures/thumbs/bvis/IMG_0625.jpg",
+    "msrc2x": "pictures/thumbs/bvis/IMG_0625@2x.jpg",
+    "date": "2015/12/21 15:32:58",
+    "position": {
+      "lat": 18.44097778,
+      "lon": -64.75918611
+    },
+    "altitude": 19
+  },
+  {
+    "type": "image",
+    "name": "DSC04662",
+    "perspective": "landscape",
+    "w": 4912,
+    "h": 3264,
+    "src": "pictures/full/bvis/DSC04662.jpg",
+    "msrc": "pictures/thumbs/bvis/DSC04662.jpg",
+    "msrc2x": "pictures/thumbs/bvis/DSC04662@2x.jpg",
+    "date": "2015/12/21 16:36:43",
+    "position": {
+      "lat": 18.4408,
+      "lon": -64.75921667
+    },
+    "altitude": 23
+  },
+  {
+    "type": "image",
+    "name": "DSC04689",
+    "perspective": "landscape",
+    "w": 4912,
+    "h": 3264,
+    "src": "pictures/full/bvis/DSC04689.jpg",
+    "msrc": "pictures/thumbs/bvis/DSC04689.jpg",
+    "msrc2x": "pictures/thumbs/bvis/DSC04689@2x.jpg",
+    "date": "2015/12/21 16:48:38",
+    "position": {
+      "lat": 18.4408,
+      "lon": -64.75921667
+    },
+    "altitude": 23
+  },
+  {
+    "type": "image",
+    "name": "DSC04691",
+    "perspective": "landscape",
+    "w": 4912,
+    "h": 3264,
+    "src": "pictures/full/bvis/DSC04691.jpg",
+    "msrc": "pictures/thumbs/bvis/DSC04691.jpg",
+    "msrc2x": "pictures/thumbs/bvis/DSC04691@2x.jpg",
+    "date": "2015/12/21 16:49:02",
+    "position": {
+      "lat": 18.4408,
+      "lon": -64.75921667
+    },
+    "altitude": 23
+  },
+  {
+    "type": "image",
+    "name": "DSC04701",
+    "perspective": "landscape",
+    "w": 4912,
+    "h": 3264,
+    "src": "pictures/full/bvis/DSC04701.jpg",
+    "msrc": "pictures/thumbs/bvis/DSC04701.jpg",
+    "msrc2x": "pictures/thumbs/bvis/DSC04701@2x.jpg",
+    "date": "2015/12/21 17:00:32",
+    "position": {
+      "lat": 18.44278056,
+      "lon": -64.76307778
+    },
+    "altitude": 1
+  },
+  {
+    "type": "image",
+    "name": "DSC04704",
+    "perspective": "landscape",
+    "w": 4912,
+    "h": 3264,
+    "src": "pictures/full/bvis/DSC04704.jpg",
+    "msrc": "pictures/thumbs/bvis/DSC04704.jpg",
+    "msrc2x": "pictures/thumbs/bvis/DSC04704@2x.jpg",
+    "date": "2015/12/21 17:01:17",
+    "position": {
+      "lat": 18.44278056,
+      "lon": -64.76307778
+    },
+    "altitude": 1
+  },
+  {
+    "type": "image",
+    "name": "DSC04720",
+    "perspective": "landscape",
+    "w": 4912,
+    "h": 3264,
+    "src": "pictures/full/bvis/DSC04720.jpg",
+    "msrc": "pictures/thumbs/bvis/DSC04720.jpg",
+    "msrc2x": "pictures/thumbs/bvis/DSC04720@2x.jpg",
+    "date": "2015/12/21 17:01:45",
+    "position": {
+      "lat": 18.44278056,
+      "lon": -64.76307778
+    },
+    "altitude": 1
+  },
+  {
+    "type": "image",
+    "name": "DSC04723",
+    "perspective": "landscape",
+    "w": 4912,
+    "h": 3264,
+    "src": "pictures/full/bvis/DSC04723.jpg",
+    "msrc": "pictures/thumbs/bvis/DSC04723.jpg",
+    "msrc2x": "pictures/thumbs/bvis/DSC04723@2x.jpg",
+    "date": "2015/12/21 17:12:15",
+    "position": {
+      "lat": 18.44321944,
+      "lon": -64.76381667
+    },
+    "altitude": 13
+  },
+  {
+    "type": "image",
+    "name": "DSC04969",
+    "perspective": "landscape",
+    "w": 4912,
+    "h": 3264,
+    "src": "pictures/full/bvis/DSC04969.jpg",
+    "msrc": "pictures/thumbs/bvis/DSC04969.jpg",
+    "msrc2x": "pictures/thumbs/bvis/DSC04969@2x.jpg",
+    "date": "2015/12/21 18:13:39",
+    "position": {
+      "lat": 18.44321944,
+      "lon": -64.76381667
+    },
+    "altitude": 13
+  },
+  {
+    "type": "image",
+    "name": "DSC04974",
+    "perspective": "portrait",
+    "w": 3264,
+    "h": 4912,
+    "src": "pictures/full/bvis/DSC04974.jpg",
+    "msrc": "pictures/thumbs/bvis/DSC04974.jpg",
+    "msrc2x": "pictures/thumbs/bvis/DSC04974@2x.jpg",
+    "date": "2015/12/21 18:14:51",
+    "position": {
+      "lat": 18.44321944,
+      "lon": -64.76381667
+    },
+    "altitude": 13
+  },
+  {
+    "type": "image",
+    "name": "DSC05014",
+    "perspective": "landscape",
+    "w": 4912,
+    "h": 3264,
+    "src": "pictures/full/bvis/DSC05014.jpg",
+    "msrc": "pictures/thumbs/bvis/DSC05014.jpg",
+    "msrc2x": "pictures/thumbs/bvis/DSC05014@2x.jpg",
+    "date": "2015/12/21 21:31:13",
+    "position": {
+      "lat": 18.44078056,
+      "lon": -64.75935278
+    },
+    "altitude": 16
+  },
+  {
+    "type": "image",
+    "name": "DSC05024",
+    "perspective": "landscape",
+    "w": 4912,
+    "h": 3264,
+    "src": "pictures/full/bvis/DSC05024.jpg",
+    "msrc": "pictures/thumbs/bvis/DSC05024.jpg",
+    "msrc2x": "pictures/thumbs/bvis/DSC05024@2x.jpg",
+    "date": "2015/12/21 21:42:32",
+    "position": {
+      "lat": 18.44078056,
+      "lon": -64.75935278
+    },
+    "altitude": 16
+  },
+  {
+    "type": "image",
+    "name": "DSC05060",
+    "perspective": "landscape",
+    "w": 4912,
+    "h": 3264,
+    "src": "pictures/full/bvis/DSC05060.jpg",
+    "msrc": "pictures/thumbs/bvis/DSC05060.jpg",
+    "msrc2x": "pictures/thumbs/bvis/DSC05060@2x.jpg",
+    "date": "2015/12/22 10:49:46",
+    "position": {
+      "lat": 18.38523889,
+      "lon": -64.70231667
+    },
+    "altitude": 21
+  },
+  {
+    "type": "image",
+    "name": "DSC05067",
+    "perspective": "landscape",
+    "w": 4912,
+    "h": 3264,
+    "src": "pictures/full/bvis/DSC05067.jpg",
+    "msrc": "pictures/thumbs/bvis/DSC05067.jpg",
+    "msrc2x": "pictures/thumbs/bvis/DSC05067@2x.jpg",
+    "date": "2015/12/22 12:46:42",
+    "position": {
+      "lat": 18.38668889,
+      "lon": -64.70198056
+    },
+    "altitude": 4
+  },
+  {
+    "type": "image",
+    "name": "DSC05069",
+    "perspective": "landscape",
+    "w": 4912,
+    "h": 3264,
+    "src": "pictures/full/bvis/DSC05069.jpg",
+    "msrc": "pictures/thumbs/bvis/DSC05069.jpg",
+    "msrc2x": "pictures/thumbs/bvis/DSC05069@2x.jpg",
+    "date": "2015/12/22 13:04:54",
+    "position": {
+      "lat": 18.38533889,
+      "lon": -64.70504722
+    },
+    "altitude": 10
+  },
+  {
+    "type": "image",
+    "name": "DSC05078_2",
+    "perspective": "landscape",
+    "w": 4912,
+    "h": 3264,
+    "src": "pictures/full/bvis/DSC05078_2.jpg",
+    "msrc": "pictures/thumbs/bvis/DSC05078_2.jpg",
+    "msrc2x": "pictures/thumbs/bvis/DSC05078_2@2x.jpg",
+    "date": "2015/12/22 13:06:22",
+    "position": {
+      "lat": 18.38493889,
+      "lon": -64.70664167
+    },
+    "altitude": 10
+  },
+  {
+    "type": "image",
+    "name": "DSCN2240",
+    "perspective": "landscape",
+    "w": 4608,
+    "h": 3456,
+    "src": "pictures/full/bvis/DSCN2240.jpg",
+    "msrc": "pictures/thumbs/bvis/DSCN2240.jpg",
+    "msrc2x": "pictures/thumbs/bvis/DSCN2240@2x.jpg",
+    "date": "2015/12/22 15:25:31",
+    "position": {
+      "lat": 18.31751389,
+      "lon": -64.620225
+    },
+    "altitude": 0
+  },
+  {
+    "type": "image",
+    "name": "DSCN2247",
+    "perspective": "landscape",
+    "w": 4608,
+    "h": 3456,
+    "src": "pictures/full/bvis/DSCN2247.jpg",
+    "msrc": "pictures/thumbs/bvis/DSCN2247.jpg",
+    "msrc2x": "pictures/thumbs/bvis/DSCN2247@2x.jpg",
+    "date": "2015/12/22 15:37:53",
+    "position": {
+      "lat": 18.31743056,
+      "lon": -64.62267222
+    },
+    "altitude": 0
+  },
+  {
+    "type": "image",
+    "name": "DSCN2248",
+    "perspective": "landscape",
+    "w": 4608,
+    "h": 3456,
+    "src": "pictures/full/bvis/DSCN2248.jpg",
+    "msrc": "pictures/thumbs/bvis/DSCN2248.jpg",
+    "msrc2x": "pictures/thumbs/bvis/DSCN2248@2x.jpg",
+    "date": "2015/12/22 15:37:56",
+    "position": {
+      "lat": 18.31743056,
+      "lon": -64.62267222
+    },
+    "altitude": 0
+  },
+  {
+    "type": "image",
+    "name": "DSC05091",
+    "perspective": "landscape",
+    "w": 4912,
+    "h": 3264,
+    "src": "pictures/full/bvis/DSC05091.jpg",
+    "msrc": "pictures/thumbs/bvis/DSC05091.jpg",
+    "msrc2x": "pictures/thumbs/bvis/DSC05091@2x.jpg",
+    "date": "2015/12/22 17:16:42",
+    "position": {
+      "lat": 18.31713889,
+      "lon": -64.61673611
+    },
+    "altitude": 0
+  },
+  {
+    "type": "image",
+    "name": "DSC05127",
+    "perspective": "landscape",
+    "w": 4912,
+    "h": 3264,
+    "src": "pictures/full/bvis/DSC05127.jpg",
+    "msrc": "pictures/thumbs/bvis/DSC05127.jpg",
+    "msrc2x": "pictures/thumbs/bvis/DSC05127@2x.jpg",
+    "date": "2015/12/22 19:30:10",
+    "position": {
+      "lat": 18.31792222,
+      "lon": -64.61330278
+    },
+    "altitude": 14
+  },
+  {
+    "type": "image",
+    "name": "DSC05128",
+    "perspective": "landscape",
+    "w": 4912,
+    "h": 3264,
+    "src": "pictures/full/bvis/DSC05128.jpg",
+    "msrc": "pictures/thumbs/bvis/DSC05128.jpg",
+    "msrc2x": "pictures/thumbs/bvis/DSC05128@2x.jpg",
+    "date": "2015/12/22 19:30:12",
+    "position": {
+      "lat": 18.31792222,
+      "lon": -64.61330278
+    },
+    "altitude": 14
+  },
+  {
+    "type": "image",
+    "name": "DSC05164",
+    "perspective": "landscape",
+    "w": 4912,
+    "h": 3264,
+    "src": "pictures/full/bvis/DSC05164.jpg",
+    "msrc": "pictures/thumbs/bvis/DSC05164.jpg",
+    "msrc2x": "pictures/thumbs/bvis/DSC05164@2x.jpg",
+    "date": "2015/12/22 20:05:42",
+    "position": {
+      "lat": 18.31793056,
+      "lon": -64.61332778
+    },
+    "altitude": 11
+  },
+  {
+    "type": "image",
+    "name": "IMG_0668",
+    "perspective": "landscape",
+    "w": 4032,
+    "h": 3024,
+    "src": "pictures/full/bvis/IMG_0668.jpg",
+    "msrc": "pictures/thumbs/bvis/IMG_0668.jpg",
+    "msrc2x": "pictures/thumbs/bvis/IMG_0668@2x.jpg",
+    "date": "2015/12/23 07:03:30",
+    "position": {
+      "lat": 18.32665833,
+      "lon": -64.63290278
+    },
+    "altitude": 1
+  },
+  {
+    "type": "image",
+    "name": "DSC05167",
+    "perspective": "landscape",
+    "w": 4912,
+    "h": 3264,
+    "src": "pictures/full/bvis/DSC05167.jpg",
+    "msrc": "pictures/thumbs/bvis/DSC05167.jpg",
+    "msrc2x": "pictures/thumbs/bvis/DSC05167@2x.jpg",
+    "date": "2015/12/23 07:04:12",
+    "position": {
+      "lat": 18.32628889,
+      "lon": -64.63247778
+    },
+    "altitude": 5
+  },
+  {
+    "type": "image",
+    "name": "DSC05169",
+    "perspective": "landscape",
+    "w": 4912,
+    "h": 3264,
+    "src": "pictures/full/bvis/DSC05169.jpg",
+    "msrc": "pictures/thumbs/bvis/DSC05169.jpg",
+    "msrc2x": "pictures/thumbs/bvis/DSC05169@2x.jpg",
+    "date": "2015/12/23 07:04:39",
+    "position": {
+      "lat": 18.32628889,
+      "lon": -64.63247778
+    },
+    "altitude": 5
+  },
+  {
+    "type": "image",
+    "name": "IMG_0695",
+    "perspective": "panorama",
+    "w": 12790,
+    "h": 3820,
+    "src": "pictures/full/bvis/IMG_0695.jpg",
+    "msrc": "pictures/thumbs/bvis/IMG_0695.jpg",
+    "msrc2x": "pictures/thumbs/bvis/IMG_0695@2x.jpg",
+    "date": "2015/12/23 09:34:56",
+    "position": {
+      "lat": 18.41442778,
+      "lon": -64.58461111
+    },
+    "altitude": 32
+  },
+  {
+    "type": "image",
+    "name": "IMG_0451",
+    "perspective": "panorama",
+    "w": 16382,
+    "h": 3754,
+    "src": "pictures/full/bvis/IMG_0451.jpg",
+    "msrc": "pictures/thumbs/bvis/IMG_0451.jpg",
+    "msrc2x": "pictures/thumbs/bvis/IMG_0451@2x.jpg",
+    "date": "2015/12/23 11:50:38",
+    "position": {
+      "lat": 18.42798889,
+      "lon": -64.61091667
+    },
+    "altitude": 9
+  },
+  {
+    "type": "image",
+    "name": "IMG_0455",
+    "perspective": "panorama",
+    "w": 15884,
+    "h": 3628,
+    "src": "pictures/full/bvis/IMG_0455.jpg",
+    "msrc": "pictures/thumbs/bvis/IMG_0455.jpg",
+    "msrc2x": "pictures/thumbs/bvis/IMG_0455@2x.jpg",
+    "date": "2015/12/23 11:52:47",
+    "position": {
+      "lat": 18.42793889,
+      "lon": -64.61094722
+    },
+    "altitude": 5
+  },
+  {
+    "type": "image",
+    "name": "DSC05178",
+    "perspective": "landscape",
+    "w": 4912,
+    "h": 3264,
+    "src": "pictures/full/bvis/DSC05178.jpg",
+    "msrc": "pictures/thumbs/bvis/DSC05178.jpg",
+    "msrc2x": "pictures/thumbs/bvis/DSC05178@2x.jpg",
+    "date": "2015/12/23 18:02:32",
+    "position": {
+      "lat": 18.34096944,
+      "lon": -64.932
+    },
+    "altitude": 5
+  },
+  {
+    "type": "image",
+    "name": "IMG_0480",
+    "perspective": "landscape",
+    "w": 4032,
+    "h": 3024,
+    "src": "pictures/full/bvis/IMG_0480.jpg",
+    "msrc": "pictures/thumbs/bvis/IMG_0480.jpg",
+    "msrc2x": "pictures/thumbs/bvis/IMG_0480@2x.jpg",
+    "date": "2015/12/24 11:24:39",
+    "position": {
+      "lat": 18.34980278,
+      "lon": -64.86521944
+    },
+    "altitude": 3
+  },
+  {
+    "type": "image",
+    "name": "IMG_0484",
+    "perspective": "landscape",
+    "w": 2576,
+    "h": 1932,
+    "src": "pictures/full/bvis/IMG_0484.jpg",
+    "msrc": "pictures/thumbs/bvis/IMG_0484.jpg",
+    "msrc2x": "pictures/thumbs/bvis/IMG_0484@2x.jpg",
+    "date": "2015/12/24 11:25:11",
+    "position": {
+      "lat": 18.34977222,
+      "lon": -64.86518889
+    },
+    "altitude": 7
+  },
+  {
+    "type": "image",
+    "name": "DSC05191",
+    "perspective": "landscape",
+    "w": 4912,
+    "h": 3264,
+    "src": "pictures/full/bvis/DSC05191.jpg",
+    "msrc": "pictures/thumbs/bvis/DSC05191.jpg",
+    "msrc2x": "pictures/thumbs/bvis/DSC05191@2x.jpg",
+    "date": "2015/12/24 11:58:39",
+    "position": {
+      "lat": 18.3503,
+      "lon": -64.92434722
+    },
+    "altitude": 221
+  },
+  {
+    "type": "image",
+    "name": "IMG_0494",
+    "perspective": "landscape",
+    "w": 4032,
+    "h": 3024,
+    "src": "pictures/full/bvis/IMG_0494.jpg",
+    "msrc": "pictures/thumbs/bvis/IMG_0494.jpg",
+    "msrc2x": "pictures/thumbs/bvis/IMG_0494@2x.jpg",
+    "date": "2015/12/24 14:17:34",
+    "position": {
+      "lat": 18.36487222,
+      "lon": -64.92220278
+    },
+    "altitude": 3
+  },
+  {
+    "type": "image",
+    "name": "IMG_0508",
+    "perspective": "landscape",
+    "w": 2576,
+    "h": 1932,
+    "src": "pictures/full/bvis/IMG_0508.jpg",
+    "msrc": "pictures/thumbs/bvis/IMG_0508.jpg",
+    "msrc2x": "pictures/thumbs/bvis/IMG_0508@2x.jpg",
+    "date": "2015/12/24 15:33:27",
+    "position": {
+      "lat": 18.35304722,
+      "lon": -64.927125
+    },
+    "altitude": 222
+  },
+  {
+    "type": "image",
+    "name": "IMG_0510",
+    "perspective": "landscape",
+    "w": 3775,
+    "h": 2696,
+    "src": "pictures/full/bvis/IMG_0510.jpg",
+    "msrc": "pictures/thumbs/bvis/IMG_0510.jpg",
+    "msrc2x": "pictures/thumbs/bvis/IMG_0510@2x.jpg",
+    "date": "2015/12/24 15:33:54",
+    "position": {
+      "lat": 18.35303056,
+      "lon": -64.92697778
+    },
+    "altitude": 227
+  },
+  {
+    "type": "image",
+    "name": "DSC05197",
+    "perspective": "landscape",
+    "w": 4912,
+    "h": 3264,
+    "src": "pictures/full/bvis/DSC05197.jpg",
+    "msrc": "pictures/thumbs/bvis/DSC05197.jpg",
+    "msrc2x": "pictures/thumbs/bvis/DSC05197@2x.jpg",
+    "date": "2015/12/25 09:03:48",
+    "position": {
+      "lat": 18.34353889,
+      "lon": -64.92949722
+    },
+    "altitude": 56
+  },
+  {
+    "type": "image",
+    "name": "DSC05201",
+    "perspective": "landscape",
+    "w": 4912,
+    "h": 3264,
+    "src": "pictures/full/bvis/DSC05201.jpg",
+    "msrc": "pictures/thumbs/bvis/DSC05201.jpg",
+    "msrc2x": "pictures/thumbs/bvis/DSC05201@2x.jpg",
+    "date": "2015/12/25 09:04:33",
+    "position": {
+      "lat": 18.34353889,
+      "lon": -64.92949722
+    },
+    "altitude": 56
+  }
+]

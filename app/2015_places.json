@@ -1,0 +1,71 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {"name": "Seattle"},
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3331,
+          47.6097
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {"name": "Vantage"},
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.9917,
+          46.9467
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {"name": "Chelan"},
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.0214,
+          47.8428
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {"name": "Whistler"},
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.9544,
+          50.1208
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {"name": "Banff"},
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -115.5719,
+          51.1781
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {"name": "BVIs"},
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.6181,
+          18.4233
+        ]
+      }
+    }
+  ]
+}

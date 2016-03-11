@@ -5,3 +5,7 @@ Adventure Websites
 - [ ] Banff
 - [ ] Worlds
 - [ ] Deception
+- [ ] BVIs
+    - weather
+    - color tracks, include excursions
+

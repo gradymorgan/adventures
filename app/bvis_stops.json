@@ -1,0 +1,93 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {"name": "RoadTown", "maki": "embassy-15"},
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.6111800,
+          18.4276560
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {"name": "Spanish Town", "maki": "harbor-11"},
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.4414600,
+          18.4549070
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {"name": "Sabba Rock", "maki": "harbor-11"},
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.3611410,
+          18.5026640
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {"name": "Anagada", "maki": "harbor-11"},
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.3847330,
+          18.7230190
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {"name": "Marina Kay", "maki": "harbor-11"},
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.5276490,
+          18.4606980
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {"name": "Jost Van Dyke", "maki": "harbor-11"},
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.7511130,
+          18.4427680
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {"name": "White Bay", "maki": "harbor-11"},
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.7599280,
+          18.4407840
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {"name": "Norman Island", "maki": "harbor-11"},
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.6168810,
+          18.3170250
+        ]
+      }
+    }
+  ]
+}

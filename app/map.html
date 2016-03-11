@@ -1,0 +1,55 @@
+<!doctype html>
+<html class="no-js" lang="">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>BVI Map</title>
+
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.11.3/mapbox-gl.css' rel='stylesheet'>
+
+    <script src="http://code.jquery.com/jquery-2.2.1.min.js"></script>
+    <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.11.3/mapbox-gl.js'></script>
+
+    <script src='https://api.mapbox.com/mapbox.js/plugins/geo-viewport/v0.1.1/geo-viewport.js'></script>
+    <script src='https://api.mapbox.com/mapbox.js/plugins/geojson-extent/v0.0.1/geojson-extent.js'></script>
+  </head>
+  <body>
+    <img id='static-map' style="width:50%;height:50%"></div>
+
+    <script>
+        var accessToken = 'pk.eyJ1IjoiZ3JhZHltb3JnYW4iLCJhIjoiY2lmMjJ1aGh4Mm55NnJ5bHY1M2psd2E2MiJ9.F9K40n4E7aFkgItcF0DGZA';
+
+        var trackGeo = $.getJSON('bvis_track.json').promise();
+        var stopsGeo = $.getJSON('bvis_stops.json').promise();
+        var placesGeo = $.getJSON('2015_places.json').promise();
+
+        $(function() {
+
+            placesGeo.then(function(geos) {
+
+                var bounds = geojsonExtent(geos);
+
+                // The size of the desired map.
+                var size = [1280, 1280];
+
+                // Calculate a zoom level and centerpoint for this map.
+                var vp = geoViewport.viewport(bounds, size);
+
+                // Construct a static map url
+                // https://api.mapbox.com/styles/v1/{username}/{style_id}/static/{lon},{lat},{zoom},{bearing},{pitch}/{width}x{height}{@2x}
+                document.getElementById('static-map').src =
+                    'https://api.mapbox.com/styles/v1/gradymorgan/cilfz5wi1004w9pkv1u006xuv/static/' +
+                    vp.center.join(',') + ',' +
+                    (vp.zoom-1) + '/' +
+                    size.join('x') + '@2x' +
+                    '?access_token=' + accessToken;
+            });
+        });
+</script>
+
+    </script>
+
+  </body>
+ </html>
